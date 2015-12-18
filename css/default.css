@@ -3,22 +3,11 @@
     background-color:#242424;
 }
 
-
-/*Nav Width*/
-.navwidth {
-    width:100%;
-}
-
-
 /*Website Logo*/
 .streetlogo {
     padding-top:5px;
     padding-left:5px;
     padding-bottom:4px;   
-}
-
-.bloop {
-    padding-top:10px;
 }
 
 /*Dropdown header positioning*/
