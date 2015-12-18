@@ -1,6 +1,7 @@
 /*Navigation Bar*/
 .topnavbar {
     background-color:#242424;
+    padding-right:20px;
 }
 
 /*Website Logo*/
@@ -21,10 +22,27 @@
     font-family:'Open Sans';
     font-size:16px;
     font-weight:bold;
+    margin-right:10px;
+}
+
+.dropdown-menu {
+    background-color:#242424;
 }
 
 /*Dropdown caret styling*/
 .caret {
     color:white;
 }
+
+/*Sponsor images section*/
+.sponsorimages {
+    border:3px solid #242424;
+    background-color:#242424;
+    height:40px;
+}
+
+.gtr {
+    width:100%;
+}
+
 
