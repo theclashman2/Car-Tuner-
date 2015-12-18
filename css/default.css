@@ -1,0 +1,41 @@
+/*Navigation Bar*/
+.topnavbar {
+    background-color:#242424;
+}
+
+
+/*Nav Width*/
+.navwidth {
+    width:100%;
+}
+
+
+/*Website Logo*/
+.streetlogo {
+    padding-top:5px;
+    padding-left:5px;
+    padding-bottom:4px;   
+}
+
+.bloop {
+    padding-top:10px;
+}
+
+/*Dropdown header positioning*/
+.dropstyle {
+    padding-top:3px;
+}
+
+/*Dropdown header styling*/
+.dropheads {
+    color:white;
+    font-family:'Open Sans';
+    font-size:16px;
+    font-weight:bold;
+}
+
+/*Dropdown caret styling*/
+.caret {
+    color:white;
+}
+

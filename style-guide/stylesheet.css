@@ -1,0 +1,83 @@
+/*heading font*/
+
+h1 {
+  font-family:'Open Sans';
+  font-size:60px;
+  text-align:center;
+}
+
+
+/*paragraph font*/
+p {
+  font-family:Helvetica;
+  font-size:20px;
+  text-align:center;
+}
+
+
+/*logo/main color*/
+.colors1 {
+  background-color:#ED1C26;
+  width:200px;
+  height:200px;
+}
+
+
+
+.colors2 {
+  background-color:#242424;
+  width:200px;
+  height:200px;
+}
+
+
+
+.colors3 {
+  background-color:#4f4f4f;
+  height:200px;
+  width:200px;
+}
+
+
+
+.colors4 {
+  background-color:#B5B5B5;
+  height:200px;
+  width:200px;
+}
+
+
+
+.colors5 {
+  background-color:#EFEFEF;
+  height:200px;
+  width:200px;
+}
+
+
+
+.colors6 {
+  background-color:;
+  height:200px;
+  width:200px;
+}
+
+
+
+.center {
+  display:inline-block;
+}
+
+
+
+.col1 {
+  text-align:center;
+}
+
+
+
+.col2 {
+  text-align:center;
+}
+
+
