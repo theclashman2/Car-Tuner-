@@ -20,13 +20,20 @@
 .dropheads {
     color:white;
     font-family:'Open Sans';
-    font-size:16px;
+    font-size:19px;
     font-weight:bold;
     margin-right:10px;
 }
 
+/*Dropdown menu background*/
 .dropdown-menu {
     background-color:#242424;
+}
+
+/*Dropdown menu list styling*/
+.dropliststyle {
+    color:white;
+    font-size:17px;
 }
 
 /*Dropdown caret styling*/
@@ -41,7 +48,7 @@
     height:40px;
 }
 
-.gtr {
+.gtrmain {
     width:100%;
 }
 
