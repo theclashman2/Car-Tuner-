@@ -7,58 +7,148 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'>
-  <link href="css/default.css" rel="stylesheet">
+  <link href="./stylesheet.css" rel="stylesheet">
 </head>
 <body>
-  <div class="navbar-default" role="navigation">
-    <!-- Brand and toggle get grouped for better mobile display -->
+  <!-- Start of Navbar -->
+  <div class="container navbar navbar-default navbar-fixed-top" role="navigation">
+    <!-- Navbar responsive display section -->
     <div class="navbar-header">
+      <img src="images/streetlogo3.png" class="streetlogo">
       <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <img src="images/streetlogo3.png" class="streetlogo"></img>
     </div>
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse navbar-ex1-collapse topnavbar">
+    <!-- Navbar dropdown menus section-->
+    <div class="collapse navbar-collapse navbar-ex1-collapse">
       <ul class="nav navbar-nav navbar-right dropstyle">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="dropheads">streeTRACE</span> <b class="caret"></b></a>
-          <ul class="dropdown-menu">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="dropheads">Dropdown</span> <b class="caret"></b></a>
+          <ul class="dropdown-menu dropbackground">
             <li><a href="#"><span class="dropliststyle">Action</span></a></li>
-            <li><a href="#"><span class="dropliststyle">Another action</span></a></li>
-            <li><a href="#"><span class="dropliststyle">Something else here</span></a></li>
-            <li><a href="#"><span class="dropliststyle">Separated link</span></a></li>
+            <li><a href="#"><span class="dropliststyle">Action</span></a></li>
+            <li><a href="#"><span class="dropliststyle">Action</span></a></li>
+            <li><a href="#"><span class="dropliststyle">Action</span></a></li>
+            <li><a href="#"><span class="dropliststyle">Action</span></a></li>
           </ul>
         </li>
       </ul>
-      <!--Builds NavBar button-->
       <ul class="nav navbar-nav navbar-right dropstyle">
         <li class="dropdown">
-          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="dropheads">Builds</span> <b class="caret"></b></a>
-          <ul class="dropdown-menu">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="dropheads">Dropdown</span> <b class="caret"></b></a>
+          <ul class="dropdown-menu dropbackground">
             <li><a href="#"><span class="dropliststyle">Action</span></a></li>
-            <li><a href="#"><span class="dropliststyle">Another action</span></a></li>
-            <li><a href="#"><span class="dropliststyle">Something else here</span></a></li>
-            <li><a href="#"><span class="dropliststyle">Separated link</span></a></li>
+            <li><a href="#"><span class="dropliststyle">Action</span></a></li>
+            <li><a href="#"><span class="dropliststyle">Action</span></a></li>
+            <li><a href="#"><span class="dropliststyle">Action</span></a></li>
+            <script src="js/navbardrop.js"></script>
           </ul>
         </li>
       </ul>
+      <!-- Navbar button link menus section -->
       <ul class="nav navbar-nav navbar-right dropstyle">
         <li><a href="#"><span class="dropheads">Link</span></a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right dropstyle">
         <li><a href="#"><span class="dropheads">Link</span></a></li>
-        <script src="js/navbardrop.js"></script>
       </ul>
     </div>
   </div>
-  <!--GTR Main page picture-->
-  <img src="images/2560gtr.jpg" class="img-responsive gtrmain"></img>
-    <div class="sponsorimages">
-      <img src="images/sponsorbaselogos.png" class="center-block"></img>
+  <!-- Take your racing to the next level image text overlay -->
+  <div class="container">
+    <div class="row">
+      <div class="wrap">
+        <img src="images/2560gtr.jpg" class="img-responsive gtrmain">
+        <div class="caption">
+          <div class="caption-inner">
+            <div class="caption-content">
+              <h1 class="nextlevel">Take your <span class="racing">racing</span> to the next <span class="racing">level.</span></h1>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row sponsors1">
+      <div class="col-sm-4">
+        <div class="speedhunters">
+          <a href="http://www.speedhunters.com">
+          <img src="images/speedhunterslogo.png" class="center-block"></a>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="motorhead">
+          <a href="http://www.motorheadjp.com">
+          <img src="images/motorheadlogo.png" class="center-block"></a>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="fiexhaust">
+          <a href="http://www.fi-exhaust.com">
+          <img src="images/fieexhaustlogo.png" class="center-block"></a>
+        </div>
+      </div>
+    </div>
+    <div class="row sponsors2">
+      <div class="col-sm-4">
+        <div class="formuladrift">
+          <a href="http://www.formulad.jp">
+          <img src="images/formuladriftlogo.png" class="center-block"></a>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="forgiato">
+          <a href="http://www.forgiato.com">
+          <img src="images/forgiatologo.png" class="center-block"></a>
+        </div>
+      </div>
+      <div class="col-sm-4">
+        <div class="skyforgedlogo">
+          <a href="http://www.sky-forged.sakura.ne.jp">
+          <img src="images/skyforgedlogo.png" class="center-block"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+  <!-- Feature images and headers -->
+  <div class="container">
+    <div class="row features">
+      <div class="col-sm-3">
+        <div class="buildsfeature">
+          <img src="images/292.5x200subie.jpg" class="subiefeature img-responsive center-block">
+          <div class="buildsheader">Builds</div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="partsfeature">
+          <img src="images/292.5x200engine.jpg" class="enginefeature img-responsive center-block">
+          <div class="partsheader">Parts</div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="guidesfeature">
+          <img src="images/292.5x200shifter.jpg" class="stickfeature  img-responsive center-block">
+          <div class="guidesheader">Racing Guides</div>
+        </div>
+      </div>
+      <div class="col-sm-3">
+        <div class="mapsfeature">
+          <img src="images/292.5x200map.jpg" class="racingfeature img-responsive center-block">
+          <div class="mapsheader">Race Maps</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+
+
+
+
 
 
 
