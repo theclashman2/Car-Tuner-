@@ -128,9 +128,10 @@ body {
 }
 
 
+
 /*Car builds feature image and text overlay styling*/
 .subiefeature {
-  opacity:0.7;
+  opacity:0.9;
 }
 
 .buildsfeature {
@@ -161,7 +162,7 @@ body {
 
 /*Car parts feature image and text overlay styling*/
 .enginefeature {
-  opacity:0.7;
+  opacity:0.9;
 }
 
 .partsfeature {
@@ -191,7 +192,7 @@ body {
 
 /*Guides feature image and text overlay styling*/
 .stickfeature {
-  opacity:0.7;
+  opacity:0.9;
 }
 
 .guidesfeature {
@@ -222,7 +223,7 @@ body {
 
 /*Racing map feature image and text overlay styling*/
 .racingfeature {
-  opacity:0.6;
+  opacity:0.8;
 }
 
 .mapsfeature {
@@ -350,40 +351,50 @@ body {
 
 
 
-
+/*News & events articles section*/
 .eventsquares {
   margin-top:100px;
 }
 
-
-.module {
-   background: 
-    linear-gradient(
-    rgba(0, 0, 0, 0.6),
-    rgba(0, 0, 0, 0.6)
-    ),
-    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/skyscrapers.jpg);
-  background-size: cover;
-  width: 300px;
-  height: 200px;
-  margin: 10px 0 0 10px;
+#article1{
+  width: 100%;
+  height: 480px;
   position: relative;
-  float: left;
+  color: silver;
 }
 
 
-.mid h2 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 900;
-  color: white;
-  text-transform: uppercase;
-  margin: 0;
+#bellaitalia {
+  z-index: -1;
   position: absolute;
-  top: 50%;
-  left: 50%;
-  font-size: 2rem;
-  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  background-size: 100% auto;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  border:6px solid black;
+  height:78%;
+  }
+
+
+.bellastyle {
+  font-size:45px;
+  background-color: rgba(15,15,15,0.75);
+  color:#fff;
+  bottom: 0px;
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+  width:100%;
+  border-left:none;
+  border-right:none;
+  font-family:'Open Sans';
 }
+
+
+
 
 
 
