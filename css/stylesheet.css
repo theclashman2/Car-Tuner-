@@ -1,0 +1,477 @@
+/*Main page background*/
+body {
+  background-color:#242424;
+}
+
+/*Main Nav Components*/
+.navbar {
+  background:transparent;
+  background-color: rgba(255,255,255,0.5);
+  border:1px solid black;
+  padding:0;
+}
+
+/*streeTRACE logo*/
+.streetlogo {
+  padding-top:2px;
+  padding-left:3px;
+}
+
+/*Nav dropdown spacing*/
+.dropstyle {
+  margin-right:0.1px;
+}
+
+/*Dropdown header styling*/
+.dropheads {
+  color:#4f4f4f;
+  font-family:'Open Sans';
+  font-size:19px;
+  font-weight:bold;
+  margin-right:10px;
+}
+
+/*Dropdown list styling*/
+.dropliststyle {
+  color:#4f4f4f;
+  font-size:17px;
+}
+
+/*Dropdown list background*/
+.dropbackground {
+  background:transparent;
+  background-color: rgba(255,255,255,0.7);
+}
+
+
+
+
+
+
+
+
+/*GTR main page picture*/
+.gtrmain {
+  width:100%;
+  opacity:0.8;
+}
+
+/*GTR image text overlay positioning*/
+.wrap {
+  margin:auto;
+  position:relative;
+}
+
+.wrap img {
+  width:100%;
+  height:auto;
+  border:1px solid #000;
+}
+
+.caption {
+  position:absolute;
+  top:10px;
+  left:1px;
+  right:2;
+  bottom:0px;
+  overflow:hidden;
+}
+
+.caption-inner {
+  display:table;
+  width:100%;
+  height:100%;
+}
+
+.caption-content {
+  display:table-cell;
+  vertical-align:middle;
+}
+
+.caption-content h1 {
+  margin:430px 0px 0px 0px;
+  background:rgba(255,255,255,0.4);
+  padding:10px;
+
+}
+
+
+
+/*Nextlevel image text overlay styling*/
+.nextlevel {
+  font-weight:bold;
+  color:#242424;
+  font-size:43px;
+  font-family:'Helvetica';
+}
+
+/*Nextlevel image text overlay "racing" styling*/
+.racing {
+  color:#ED1C26;
+  font-style:italic;
+  font-weight:1000;
+}
+
+
+
+
+
+
+
+
+
+/*Website feature images section*/
+.features {
+  margin-top:90px;
+  font-size:17px;
+  font-family:'Open Sans';
+}
+
+
+/*Car builds feature image and text overlay styling*/
+.subiefeature {
+  opacity:0.7;
+}
+
+.buildsfeature {
+  position:relative;
+  border:1px solid black;
+  background-color:black;
+}
+
+.buildsfeature:hover {
+  -moz-box-shadow: 0 0 10px #ccc; 
+  -webkit-box-shadow: 0 0 10px #ccc; 
+  box-shadow: 0 0 10px #ccc; 
+}
+
+.buildsheader {
+  position: absolute;
+  background-color: rgba(15, 15, 15, 0.93);
+  color: #fff;
+  bottom: 0px;
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+  width:100%;
+}
+
+
+
+
+
+/*Car parts feature image and text overlay styling*/
+.enginefeature {
+  opacity:0.7;
+}
+
+.partsfeature {
+  position:relative;
+  border:1px solid black;
+  background-color:black;
+}
+
+.partsfeature:hover {
+  -moz-box-shadow: 0 0 10px #ccc; 
+  -webkit-box-shadow: 0 0 10px #ccc; 
+  box-shadow: 0 0 10px #ccc;
+}
+
+.partsheader {
+  position: absolute;
+  background-color: rgba(15, 15, 15, 0.93);
+  color: #fff;
+  bottom: 0px;
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+  width:100%;
+}
+
+
+
+
+/*Guides feature image and text overlay styling*/
+.stickfeature {
+  opacity:0.7;
+}
+
+.guidesfeature {
+  position:relative;
+  border:1px solid black;
+  background-color:black;
+}
+
+.guidesfeature:hover {
+  -moz-box-shadow: 0 0 10px #ccc; 
+  -webkit-box-shadow: 0 0 10px #ccc; 
+  box-shadow: 0 0 10px #ccc;
+}
+
+.guidesheader {
+  position: absolute;
+  background-color: rgba(15, 15, 15, 0.93);
+  color: #fff;
+  bottom: 0px;
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+  width:100%;
+}
+
+
+
+
+
+/*Racing map feature image and text overlay styling*/
+.racingfeature {
+  opacity:0.6;
+}
+
+.mapsfeature {
+  position:relative;
+  border:1px solid black;
+  background-color:black;
+}
+
+.mapsfeature:hover {
+  -moz-box-shadow: 0 0 10px #ccc; 
+  -webkit-box-shadow: 0 0 10px #ccc; 
+  box-shadow: 0 0 10px #ccc;
+}
+
+.mapsheader {
+  position: absolute;
+  background-color: rgba(15, 15, 15, 0.93);
+  color: #fff;
+  bottom: 0px;
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+  width:100%;
+}
+
+
+
+
+/*Sponsor logo positioning*/
+.sponsors1 {
+  margin-top:50px;
+}
+
+
+.sponsors2 {
+  margin-top:50px;
+}
+
+
+
+
+/*Speedhunters logo styling*/
+.speedhunters {
+  border:2px solid #4f4f4f;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+}
+
+.speedhunters:hover {
+  border-color:#ED1C26;
+}
+
+
+
+/*Motorhead logo styling*/
+.motorhead {
+  border:2px solid #4f4f4f;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+}
+
+.motorhead:hover {
+  border-color:#ED1C26;
+}
+
+
+
+/*Fi-exhaust logo styling*/
+.fiexhaust {
+  border:2px solid #4f4f4f;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+}
+
+.fiexhaust:hover {
+  border-color:#ED1C26;
+}
+
+
+
+/*Formula drift logo styling*/
+.formuladrift {
+  border:2px solid #4f4f4f;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+}
+
+.formuladrift:hover {
+  border-color:#ED1C26;
+}
+
+
+
+/*Forgiato logo styling*/
+.forgiato {
+  border:2px solid #4f4f4f;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+}
+
+.forgiato:hover {
+  border-color:#ED1C26;
+}
+
+
+
+/*Skyforged logo styling*/
+.skyforged {
+  border:2px solid #4f4f4f;
+  border-top:none;
+  border-left:none;
+  border-right:none;
+}
+
+.skyforged:hover {
+  border-color:#ED1C26;
+}
+
+
+
+
+
+
+
+.eventsquares {
+  margin-top:100px;
+}
+
+
+.module {
+   background: 
+    linear-gradient(
+    rgba(0, 0, 0, 0.6),
+    rgba(0, 0, 0, 0.6)
+    ),
+    url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/3/skyscrapers.jpg);
+  background-size: cover;
+  width: 300px;
+  height: 200px;
+  margin: 10px 0 0 10px;
+  position: relative;
+  float: left;
+}
+
+
+.mid h2 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 2rem;
+  transform: translate(-50%, -50%);
+}
+
+
+
+/*Social media section*/
+.followus {
+  color:white;
+  font-size:28px;
+  text-align:center;
+  margin-top:80px;
+  font-family:'Open Sans';
+}
+
+
+.socialicons {
+  margin-top:50px;
+
+}
+
+
+
+/*Facebook icon section*/
+.fbicon {
+  color:#ED1C26;
+  font-size:80px;
+
+}
+
+.fbheader {
+  color:white;
+  font-family:'Open Sans';
+  font-size:25px;
+}
+
+.fbtext {
+  color:white;
+  font-size:15px;
+  font-family:'Open Sans';
+}
+
+
+
+
+/*Youtube icon section*/
+.tubeicon {
+  color:#ED1C26;
+  font-size:80px;
+}
+
+.tubeheader {
+  font-family:'Open Sans';
+  font-size:25px;
+  color:white;
+}
+
+.tubetext {
+  font-family:'Open Sans';
+  font-size:15px;
+  color:white;
+}
+
+
+
+/*Instagram icon section*/
+.instaicon {
+  color:#ED1C26;
+  font-size:80px;
+}
+
+.instaheader {
+  font-family:'Open Sans';
+  font-size:25px;
+  color:white;
+}
+
+.instatext {
+  font-family:'Open Sans';
+  font-size:15px;
+  color:white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
