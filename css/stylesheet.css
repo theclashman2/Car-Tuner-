@@ -342,42 +342,36 @@ body {
 
 
 
-
-
-
-
-
-
-
-
-/*News & events articles section*/
-.articles {
-  margin-top:60px;
-}
-
-.whatsnew {
-  color:white;
-  text-align:center;
-  font-family:'Helvetica';
-}
-
-.g37square{
-  width: 100%;
-  height: 480px;
-  position: relative;
-}
-
+/*Horizontal line*/
 .horizontal {
   margin-top:70px;
   border:3px solid black;
 }
 
 
-.events {
+
+
+
+
+/*Ferrari 458 car vote section*/
+.votesection {
+  margin-top:60px;
+}
+
+
+.votesquares {
   margin-top:20px;
 }
 
-.sema {
+
+.square458 {
+  width: 100%;
+  height: 480px;
+  position: relative;
+}
+
+
+.vote1 {
   z-index: -1;
   top: 0;
   left: 0;
@@ -385,11 +379,20 @@ body {
   position: absolute;
   width: 100%;
   height:78%;
-  }
 
 
-.semastyle {
-  font-size:40px;
+}
+
+
+.italia458 {
+  border:6px solid black;
+}
+
+
+
+
+.italiastyle {
+  font-size:25px;
   background-color: rgba(15,15,15,0.75);
   color:#fff;
   bottom: 0px;
@@ -404,10 +407,48 @@ body {
 
 
 
-.g37 {
-  border:6px solid black;
+
+
+/*Nissan GTR car vote section*/
+.gtrsquare {
+  width: 100%;
+  height: 480px;
+  position: relative;
 }
 
+
+.vote2 {
+  z-index: -1;
+  top: 0;
+  left: 0;
+  background-size: 100% auto;
+  position: absolute;
+  width: 100%;
+  height:78%;
+}
+
+
+.r35gtr {
+  border:6px solid black;
+
+
+}
+
+
+
+.gtrstyle {
+  font-size:25px;
+  background-color: rgba(15,15,15,0.75);
+  color:#fff;
+  bottom: 0px;
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+  width:100%;
+  border-left:none;
+  border-right:none;
+  font-family:'Helvetica';
+  font-weight:300;
+}
 
 
 
