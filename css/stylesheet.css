@@ -114,143 +114,6 @@ body {
 
 
 
-
-
-
-
-
-
-/*Website feature images section*/
-.features {
-  margin-top:90px;
-  font-size:17px;
-  font-family:'Open Sans';
-}
-
-
-
-/*Car builds feature image and text overlay styling*/
-.subiefeature {
-  opacity:0.9;
-}
-
-.buildsfeature {
-  position:relative;
-  border:1px solid black;
-  background-color:black;
-}
-
-.buildsfeature:hover {
-  -moz-box-shadow: 0 0 10px #ccc; 
-  -webkit-box-shadow: 0 0 10px #ccc; 
-  box-shadow: 0 0 10px #ccc; 
-}
-
-.buildsheader {
-  position: absolute;
-  background-color: rgba(15, 15, 15, 0.93);
-  color: #fff;
-  bottom: 0px;
-  text-align: center;
-  padding: 10px 5px 10px 5px;
-  width:100%;
-}
-
-
-
-
-
-/*Car parts feature image and text overlay styling*/
-.enginefeature {
-  opacity:0.9;
-}
-
-.partsfeature {
-  position:relative;
-  border:1px solid black;
-  background-color:black;
-}
-
-.partsfeature:hover {
-  -moz-box-shadow: 0 0 10px #ccc; 
-  -webkit-box-shadow: 0 0 10px #ccc; 
-  box-shadow: 0 0 10px #ccc;
-}
-
-.partsheader {
-  position: absolute;
-  background-color: rgba(15, 15, 15, 0.93);
-  color: #fff;
-  bottom: 0px;
-  text-align: center;
-  padding: 10px 5px 10px 5px;
-  width:100%;
-}
-
-
-
-
-/*Guides feature image and text overlay styling*/
-.stickfeature {
-  opacity:0.9;
-}
-
-.guidesfeature {
-  position:relative;
-  border:1px solid black;
-  background-color:black;
-}
-
-.guidesfeature:hover {
-  -moz-box-shadow: 0 0 10px #ccc; 
-  -webkit-box-shadow: 0 0 10px #ccc; 
-  box-shadow: 0 0 10px #ccc;
-}
-
-.guidesheader {
-  position: absolute;
-  background-color: rgba(15, 15, 15, 0.93);
-  color: #fff;
-  bottom: 0px;
-  text-align: center;
-  padding: 10px 5px 10px 5px;
-  width:100%;
-}
-
-
-
-
-
-/*Racing map feature image and text overlay styling*/
-.racingfeature {
-  opacity:0.8;
-}
-
-.mapsfeature {
-  position:relative;
-  border:1px solid black;
-  background-color:black;
-}
-
-.mapsfeature:hover {
-  -moz-box-shadow: 0 0 10px #ccc; 
-  -webkit-box-shadow: 0 0 10px #ccc; 
-  box-shadow: 0 0 10px #ccc;
-}
-
-.mapsheader {
-  position: absolute;
-  background-color: rgba(15, 15, 15, 0.93);
-  color: #fff;
-  bottom: 0px;
-  text-align: center;
-  padding: 10px 5px 10px 5px;
-  width:100%;
-}
-
-
-
-
 /*Sponsor logo positioning*/
 .sponsors1 {
   margin-top:50px;
@@ -260,6 +123,7 @@ body {
 .sponsors2 {
   margin-top:50px;
 }
+
 
 
 
@@ -351,37 +215,181 @@ body {
 
 
 
-/*News & events articles section*/
-.eventsquares {
-  margin-top:100px;
+
+
+
+/*Website feature images section*/
+.features {
+  margin-top:90px;
+  font-size:17px;
+  font-family:'Open Sans';
 }
 
-#article1{
+
+
+/*Car builds feature image and text overlay styling*/
+.subiefeature {
+  opacity:0.9;
+}
+
+.buildsfeature {
+  position:relative;
+  border:1px solid black;
+  background-color:black;
+}
+
+.buildsfeature:hover {
+  box-shadow: 0 0 10px #ccc; 
+}
+
+.buildsheader {
+  position: absolute;
+  background-color: rgba(15, 15, 15, 0.93);
+  color: #fff;
+  bottom: 0px;
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+  width:100%;
+}
+
+
+
+
+
+
+
+/*Car parts feature image and text overlay styling*/
+.enginefeature {
+  opacity:0.9;
+}
+
+.partsfeature {
+  position:relative;
+  border:1px solid black;
+  background-color:black;
+}
+
+.partsfeature:hover {
+  box-shadow: 0 0 10px #ccc;
+}
+
+.partsheader {
+  position: absolute;
+  background-color: rgba(15, 15, 15, 0.93);
+  color: #fff;
+  bottom: 0px;
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+  width:100%;
+}
+
+
+
+
+/*Guides feature image and text overlay styling*/
+.stickfeature {
+  opacity:0.9;
+}
+
+.guidesfeature {
+  position:relative;
+  border:1px solid black;
+  background-color:black;
+}
+
+.guidesfeature:hover {
+  box-shadow: 0 0 10px #ccc;
+}
+
+.guidesheader {
+  position: absolute;
+  background-color: rgba(15, 15, 15, 0.93);
+  color: #fff;
+  bottom: 0px;
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+  width:100%;
+}
+
+
+
+
+
+/*Racing map feature image and text overlay styling*/
+.racingfeature {
+  opacity:0.8;
+}
+
+.mapsfeature {
+  position:relative;
+  border:1px solid black;
+  background-color:black;
+}
+
+.mapsfeature:hover {
+  box-shadow: 0 0 10px #ccc;
+}
+
+.mapsheader {
+  position: absolute;
+  background-color: rgba(15, 15, 15, 0.93);
+  color: #fff;
+  bottom: 0px;
+  text-align: center;
+  padding: 10px 5px 10px 5px;
+  width:100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*News & events articles section*/
+.articles {
+  margin-top:60px;
+}
+
+.whatsnew {
+  color:white;
+  text-align:center;
+  font-family:'Helvetica';
+}
+
+.g37square{
   width: 100%;
   height: 480px;
   position: relative;
-  color: silver;
+}
+
+.horizontal {
+  margin-top:70px;
+  border:3px solid black;
 }
 
 
-#bellaitalia {
+.events {
+  margin-top:20px;
+}
+
+.sema {
   z-index: -1;
-  position: absolute;
-  width: 100%;
-  height: 100%;
   top: 0;
   left: 0;
   background-size: 100% auto;
   position: absolute;
-  height: 100%;
   width: 100%;
-  border:6px solid black;
   height:78%;
   }
 
 
-.bellastyle {
-  font-size:45px;
+.semastyle {
+  font-size:40px;
   background-color: rgba(15,15,15,0.75);
   color:#fff;
   bottom: 0px;
@@ -390,8 +398,17 @@ body {
   width:100%;
   border-left:none;
   border-right:none;
-  font-family:'Open Sans';
+  font-family:'Helvetica';
+  font-weight:300;
 }
+
+
+
+.g37 {
+  border:6px solid black;
+}
+
+
 
 
 
