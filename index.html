@@ -2,13 +2,22 @@
 <html>
 <head>
   <title>streeTRACE</title>
+  <!--Bootstrap CSS-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css">
+  <!--Google AJAX-->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!--Bootstrap JS-->
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+  <!--Google Fonts-->
   <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800,300' rel='stylesheet' type='text/css'>
+  <!--Font Awesome-->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+  <!--Main CSS-->
   <link href="./css/stylesheet.css" rel="stylesheet">
+  <!--Google Maps API-->
+   
+   <link href="./googleapi/googlemapstyle.css" rel="stylesheet">
 </head>
 <body>
   <!-- Start of Navbar -->
@@ -162,8 +171,29 @@
       </div>
     </div>
   </div>
+  <!--Google Race Map-->
+  <div class="container">
+    <div class="col-sm-12">
+      <div id="floating-panel">
+      <b>Start: </b>
+      <select id="start" onchange="calcRoute();">
+        <option value="chicago, il">Chicago</option>
+        <option value="san bernadino, ca">San Bernadino</option>
+      </select>
+      <b>End: </b>
+      <select id="end" onchange="calcRoute();">
+        <option value="st louis, mo">St Louis</option>
+        <option value="los angeles, ca">Los Angeles</option>
+      </select>
+      </div>
+      <div id="map"></div>
+      <script src="./googleapi/directions.js" ></script>
+      <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxlOSIO2OxUusILsiaBWaXeaU42s-MNss&signed_in=true&callback=initMap"></script>
+    </div>
+  </div>
 
-          
+
+      
         
 
 
