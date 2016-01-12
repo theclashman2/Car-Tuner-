@@ -409,6 +409,7 @@ body {
 
 
 
+
 /*Nissan GTR car vote section*/
 .gtrsquare {
   width: 100%;
@@ -449,6 +450,27 @@ body {
   font-family:'Helvetica';
   font-weight:300;
 }
+
+
+
+
+
+
+
+.scoreboard {
+  margin-top:100px;
+}
+
+
+.lbg37 {
+  border:5px solid black;
+}
+
+
+.lbm4 {
+  border:5px solid black;
+}
+
 
 
 
