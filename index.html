@@ -59,10 +59,10 @@
       </ul>
       <!-- Navbar button link menus section -->
       <ul class="nav navbar-nav navbar-right dropstyle">
-        <li><a href="#"><span class="dropheads">Link</span></a></li>
+        <li><a href="#"><span class="dropheads">Maps</span></a></li>
       </ul>
       <ul class="nav navbar-nav navbar-right dropstyle">
-        <li><a href="#"><span class="dropheads">Link</span></a></li>
+        <li><a href="#"><span class="dropheads">Builds</span></a></li>
       </ul>
     </div>
   </div>
@@ -157,16 +157,45 @@
   <div class="container votesection">
     <div class="row votesquares">
       <div class="col-sm-6">
-        <div class="square458">
+        <a href="#myModal" role="button" data-toggle="modal" data-target=".458Modal" id="firstModal">
+        <div class="squareOne">
           <div class="vote1"><img src="images/libertywalk458.jpg" class="img-responsive italia458"></div>
           <p class="italiastyle">Ferrari 458 LB</p>
-          <script src="likebutton.js"></script>
+        </div>
+        <div class="modal" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Modal Title</h4>
+              </div>
+              <div class="modal-body"><h4>Thank you for voting!</h4></div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default">Close</button></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
       <div class="col-sm-6">
+        <a href="#myModal" role="button" data-toggle="modal" data-target=".secondModal">
         <div class="gtrsquare">
           <div class="vote2"><img src="images/libertywalkgtr.jpg" class="img-responsive r35gtr"></div>
           <p class="gtrstyle">Nissan GTR R35 LB</p>
+        </div>
+        <div class="modal secondModal" tabindex="-1" role="dialog">
+          <div class="modal-dialog modal-sm">
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                <h4 class="modal-title">Modal Title</h4>
+              </div>
+              <div class="modal-body">Thank you for voting!</h4></div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default">Close</button></a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -206,7 +235,7 @@
       </div>
       <div class="col-sm-4">
         <div class="topg37">
-          <img src="" class="center-block lbg37"> 
+          <img src="images/greenvotearrow.png" class="center-block lbg37"> 
         </div>
       </div>
       <div class="col-sm-4">
