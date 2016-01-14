@@ -1,6 +1,6 @@
-function firstModal () {
+function italiaModal () {
 
-  var italiaContainer = document.getElementById('testing');
+  var italiaContainer = document.getElementById('fModal');
   italiaContainer.setAttribute('class', 'container votesection');
 
   var italiaRow = document.createElement('div');
@@ -12,7 +12,7 @@ function firstModal () {
   var italia = document.createElement('a');
   italia.setAttribute('id', 'firstModal');
   italia.setAttribute('role', 'button');
-  italia.setAttribute('href', '#myModal');
+  italia.setAttribute('href', '#siteModal');
   italia.setAttribute('data-toggle', 'modal');
   italia.setAttribute('data-target', '.modalOne');
 
@@ -29,7 +29,6 @@ function firstModal () {
   var italiaCaption = document.createElement('p');
   italiaCaption.setAttribute('class', 'italiastyle');
   var italiaOverlay = document.createTextNode('Ferrari 458 LB');
-
 
   var italiaOuter = document.createElement('div');
   italiaOuter.setAttribute('class', 'modal modalOne');
@@ -51,12 +50,9 @@ function firstModal () {
   italiaClick.setAttribute('data-dismiss', 'modal');
   italiaClick.setAttribute('aria-label', 'Close');
 
-  var italiaHide = document.createElement('span');
-  var italiaEx = document.createTextNode('&times;');
-
   var italiaTitle = document.createElement('h4');
   italiaTitle.setAttribute('class', 'modal-title');
-  var italiaHead = document.createTextNode('Modal Title');
+  var italiaHead = document.createTextNode('Success!');
 
   var italiaBody = document.createElement('div');
   italiaBody.setAttribute('class', 'modal-body');
@@ -85,8 +81,6 @@ function firstModal () {
   italiaContainer.appendChild(italiaContent);
   italiaContainer.appendChild(italiaHeader);
   italiaContainer.appendChild(italiaClick);
-  italiaContainer.appendChild(italiaHide);
-  italiaContainer.appendChild(italiaEx);
   italiaContainer.appendChild(italiaTitle);
   italiaContainer.appendChild(italiaHead);
   italiaContainer.appendChild(italiaBody);
@@ -108,8 +102,6 @@ function firstModal () {
   italiaRow.appendChild(italiaContent);
   italiaRow.appendChild(italiaHeader);
   italiaRow.appendChild(italiaClick)
-  italiaRow.appendChild(italiaHide);
-  italiaRow.appendChild(italiaEx);
   italiaRow.appendChild(italiaTitle);
   italiaRow.appendChild(italiaHead);
   italiaRow.appendChild(italiaBody);
@@ -130,8 +122,6 @@ function firstModal () {
   italiaCol.appendChild(italiaContent);
   italiaCol.appendChild(italiaHeader);
   italiaCol.appendChild(italiaClick);
-  italiaCol.appendChild(italiaHide);
-  italiaCol.appendChild(italiaEx);
   italiaCol.appendChild(italiaTitle);
   italiaCol.appendChild(italiaHead);
   italiaCol.appendChild(italiaBody);
@@ -151,8 +141,6 @@ function firstModal () {
   italia.appendChild(italiaContent);
   italia.appendChild(italiaHeader);
   italia.appendChild(italiaClick);
-  italia.appendChild(italiaHide);
-  italia.appendChild(italiaEx);
   italia.appendChild(italiaTitle);
   italia.appendChild(italiaHead);
   italia.appendChild(italiaBody);
@@ -169,12 +157,12 @@ function firstModal () {
 
   firstVote.appendChild(italiaImage);
 
+  italiaCaption.appendChild(italiaOverlay);
+
   italiaOuter.appendChild(italiaBones);
   italiaOuter.appendChild(italiaContent);
   italiaOuter.appendChild(italiaHeader);
   italiaOuter.appendChild(italiaClick);
-  italiaOuter.appendChild(italiaHide);
-  italiaOuter.appendChild(italiaEx);
   italiaOuter.appendChild(italiaTitle);
   italiaOuter.appendChild(italiaHead)
   italiaOuter.appendChild(italiaBody);
@@ -187,8 +175,6 @@ function firstModal () {
   italiaBones.appendChild(italiaContent);
   italiaBones.appendChild(italiaHeader);
   italiaBones.appendChild(italiaClick);
-  italiaBones.appendChild(italiaHide);
-  italiaBones.appendChild(italiaEx);
   italiaBones.appendChild(italiaTitle);
   italiaBones.appendChild(italiaHead);
   italiaBones.appendChild(italiaBody);
@@ -200,8 +186,6 @@ function firstModal () {
 
   italiaContent.appendChild(italiaHeader);
   italiaContent.appendChild(italiaClick);
-  italiaContent.appendChild(italiaHide);
-  italiaContent.appendChild(italiaEx);
   italiaContent.appendChild(italiaTitle);
   italiaContent.appendChild(italiaHead);
   italiaContent.appendChild(italiaBody);
@@ -212,15 +196,8 @@ function firstModal () {
   italiaContent.appendChild(italiaDone);
 
   italiaHeader.appendChild(italiaClick);
-  italiaHeader.appendChild(italiaHide);
-  italiaHeader.appendChild(italiaEx);
   italiaHeader.appendChild(italiaTitle);
   italiaHeader.appendChild(italiaHead);
-
-  italiaClick.appendChild(italiaHide);
-  italiaClick.appendChild(italiaEx);
-
-  italiaHide.appendChild(italiaEx);
 
   italiaTitle.appendChild(italiaHead);
 
@@ -231,9 +208,20 @@ function firstModal () {
   italiaFooter.appendChild(italiaDone);
 
   italiaClose.appendChild(italiaDone);
+
+
 };
 
-firstModal();
+italiaModal();
+
+
+
+
+
+
+
+
+
 
 
 
