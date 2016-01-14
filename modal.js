@@ -1,12 +1,10 @@
 function firstModal () {
 
   var italiaContainer = document.getElementById('testing');
-  italiaContainer.setAttribute('class', 'container');
-  italiaContainer.setAttribute('class', 'votesection');
+  italiaContainer.setAttribute('class', 'container votesection');
 
   var italiaRow = document.createElement('div');
-  italiaRow.setAttribute('class', 'row');
-  italiaRow.setAttribute('class', 'votesquares');
+  italiaRow.setAttribute('class', 'row votesquares');
 
   var italiaCol = document.createElement('div');
   italiaCol.setAttribute('class', 'col-sm-6');
@@ -16,7 +14,7 @@ function firstModal () {
   italia.setAttribute('role', 'button');
   italia.setAttribute('href', '#myModal');
   italia.setAttribute('data-toggle', 'modal');
-  italia.setAttribute('data-target', '.458modal');
+  italia.setAttribute('data-target', '.modalOne');
 
   var firstBox = document.createElement('div');
   firstBox.setAttribute('class', 'squareOne');
@@ -26,20 +24,20 @@ function firstModal () {
 
   var italiaImage = document.createElement('img');
   italiaImage.setAttribute('src', './images/libertywalk458.jpg');
-  italiaImage.setAttribute('class', 'img-responsive');
-  italiaImage.setAttribute('class', 'italia458');
+  italiaImage.setAttribute('class', 'img-responsive italia458');
 
   var italiaCaption = document.createElement('p');
   italiaCaption.setAttribute('class', 'italiastyle');
+  var italiaOverlay = document.createTextNode('Ferrari 458 LB');
+
 
   var italiaOuter = document.createElement('div');
-  italiaOuter.setAttribute('class', 'modal');
+  italiaOuter.setAttribute('class', 'modal modalOne');
   italiaOuter.setAttribute('tabindex', '-1');
   italiaOuter.setAttribute('role', 'dialog');
 
   var italiaBones = document.createElement('div');
-  italiaBones.setAttribute('class', 'modal-dialog');
-  italiaBones.setAttribute('class', 'modal-sm');
+  italiaBones.setAttribute('class', 'modal-dialog modal-sm');
 
   var italiaContent = document.createElement('div');
   italiaContent.setAttribute('class', 'modal-content');
@@ -52,7 +50,6 @@ function firstModal () {
   italiaClick.setAttribute('class', 'close');
   italiaClick.setAttribute('data-dismiss', 'modal');
   italiaClick.setAttribute('aria-label', 'Close');
-  italiaClick.setAttribute('class', 'close');
 
   var italiaHide = document.createElement('span');
   var italiaEx = document.createTextNode('&times;');
@@ -70,8 +67,7 @@ function firstModal () {
   italiaFooter.setAttribute('class', 'modal-footer');
 
   var italiaClose = document.createElement('button');
-  italiaClose.setAttribute('class', 'btn');
-  italiaClose.setAttribute('class', 'btn-default');
+  italiaClose.setAttribute('class', 'btn btn-default');
   var italiaDone = document.createTextNode('Close');
 
   document.body.appendChild(italiaContainer);
@@ -82,7 +78,8 @@ function firstModal () {
   italiaContainer.appendChild(firstBox);
   italiaContainer.appendChild(firstVote);
   italiaContainer.appendChild(italiaImage);
-  italiaContainer.appendChild(italiaCaption); 
+  italiaContainer.appendChild(italiaCaption);
+  italiaContainer.appendChild(italiaOverlay) 
   italiaContainer.appendChild(italiaOuter);
   italiaContainer.appendChild(italiaBones);
   italiaContainer.appendChild(italiaContent);
@@ -105,6 +102,7 @@ function firstModal () {
   italiaRow.appendChild(firstVote);
   italiaRow.appendChild(italiaImage);
   italiaRow.appendChild(italiaCaption);
+  italiaRow.appendChild(italiaOverlay);
   italiaRow.appendChild(italiaOuter);
   italiaRow.appendChild(italiaBones);
   italiaRow.appendChild(italiaContent);
@@ -126,6 +124,7 @@ function firstModal () {
   italiaCol.appendChild(firstVote);
   italiaCol.appendChild(italiaImage);
   italiaCol.appendChild(italiaCaption);
+  italiaCol.appendChild(italiaOverlay);
   italiaCol.appendChild(italiaOuter);
   italiaCol.appendChild(italiaBones);
   italiaCol.appendChild(italiaContent);
@@ -146,6 +145,7 @@ function firstModal () {
   italia.appendChild(firstVote);
   italia.appendChild(italiaImage);
   italia.appendChild(italiaCaption);
+  italia.appendChild(italiaOverlay);
   italia.appendChild(italiaOuter);
   italia.appendChild(italiaBones);
   italia.appendChild(italiaContent);
@@ -165,6 +165,7 @@ function firstModal () {
   firstBox.appendChild(firstVote);
   firstBox.appendChild(italiaImage);
   firstBox.appendChild(italiaCaption);
+  firstBox.appendChild(italiaOverlay);
 
   firstVote.appendChild(italiaImage);
 
