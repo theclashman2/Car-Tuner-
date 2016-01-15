@@ -381,6 +381,9 @@ body {
   position: relative;
 }
 
+
+
+
 .vote1 {
   z-index: -1;
   top: 0;
@@ -393,6 +396,10 @@ body {
 
 .italia458 {
   border:6px solid black;
+}
+
+.italia458 {
+  color:white;
 }
 
 .italiastyle {
@@ -501,11 +508,13 @@ body {
   color:white;
   text-align:center;
   font-size:27px;
+  font-family:'Helvetica';
 }
 
 
 #map {
   margin-top:30px;
+  border:1px solid black;
 }
 
 
@@ -529,7 +538,7 @@ body {
 }
 
 .scoreboard {
-  margin-top:30px;
+  margin-top:20px;
 }
 
 
@@ -544,82 +553,121 @@ body {
 
 
 
+.box {  
+  background-image:url('../images/libertywalkg37.jpg');
+  overflow:hidden;
+  position:relative;
+}
 
-/*Social media section*/
-.followus {
-  color:white;
-  font-size:28px;
+
+
+.overlay {  
+  background:rgba(0,0,0,.75);
+  padding:50px 0px;
+  opacity:0;
+}
+
+
+.box:hover .overlay {
+  opacity:1;
+}
+
+
+.plus { 
+  font-family:'Helvetica';
+  font-weight:900;
+  color:rgba(255,255,255,.85);
+  font-size:17px;
   text-align:center;
-  margin-top:80px;
-  font-family:'Open Sans';
-}
-
-.socialicons {
-  margin-top:50px;
-
-}
-
-
-
-/*Facebook icon section*/
-.fbicon {
-  color:#ED1C26;
-  font-size:80px;
-
-}
-
-.fbheader {
-  color:white;
-  font-family:'Open Sans';
-  font-size:25px;
-}
-
-.fbtext {
-  color:white;
-  font-size:15px;
-  font-family:'Open Sans';
+  color:#fff;
+  padding:10px 5px 10px 5px;
+  width:100%;
 }
 
 
 
 
-/*Youtube icon section*/
-.tubeicon {
-  color:#ED1C26;
-  font-size:80px;
-}
-
-.tubeheader {
-  font-family:'Open Sans';
-  font-size:25px;
-  color:white;
-}
-
-.tubetext {
-  font-family:'Open Sans';
-  font-size:15px;
-  color:white;
-}
 
 
 
-/*Instagram icon section*/
-.instaicon {
-  color:#ED1C26;
-  font-size:80px;
-}
 
-.instaheader {
-  font-family:'Open Sans';
-  font-size:25px;
-  color:white;
-}
 
-.instatext {
-  font-family:'Open Sans';
-  font-size:15px;
-  color:white;
-}
+
+   /*Social media section*/
+  .followus {
+    color:white;
+    font-size:28px;
+    text-align:center;
+    margin-top:80px;
+    font-family:'Open Sans';
+  }
+
+  .socialicons {
+    margin-top:50px;
+
+  }
+
+
+
+  /*Facebook icon section*/
+  .fbicon {
+    color:#ED1C26;
+    font-size:80px;
+
+  }
+
+  .fbheader {
+    color:white;
+    font-family:'Open Sans';
+    font-size:25px;
+  }
+
+  .fbtext {
+    color:white;
+    font-size:15px;
+    font-family:'Open Sans';
+  }
+
+
+
+
+  /*Youtube icon section*/
+  .tubeicon {
+    color:#ED1C26;
+    font-size:80px;
+  }
+
+  .tubeheader {
+    font-family:'Open Sans';
+    font-size:25px;
+    color:white;
+  }
+
+  .tubetext {
+    font-family:'Open Sans';
+    font-size:15px;
+    color:white;
+  }
+
+
+
+  /*Instagram icon section*/
+  .instaicon {
+    color:#ED1C26;
+    font-size:80px;
+  }
+
+  .instaheader {
+    font-family:'Open Sans';
+    font-size:25px;
+    color:white;
+  }
+
+  .instatext {
+    font-family:'Open Sans';
+    font-size:15px;
+    color:white;
+  }
 
 
 
