@@ -24,7 +24,7 @@
     <!-- Navbar responsive display section -->
     <div class="navbar-header">
       <img src="images/streetlogo3.png" class="streetlogo">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-s-collapse">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
@@ -32,7 +32,7 @@
       </button>
     </div>
     <!-- Navbar dropdown menus section-->
-    <div class="collapse navbar-collapse navbar-ex1-collapse">
+    <div class="collapse navbar-collapse navbar-s-collapse">
       <ul class="nav navbar-nav navbar-right dropstyle">
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="dropheads">Guides</span> <b class="caret"></b></a>
@@ -81,6 +81,7 @@
       </div>
     </div>
   </div>
+  <!--Sponsor logo section-->
   <div class="container">
     <div class="row sponsors1">
       <div class="col-sm-4">
@@ -152,11 +153,13 @@
       </div>
     </div>
   </div>
-  <hr width="600" size="200" class="horizontal">
-  <!--Vote square section-->
+  <hr width="600" size="200" class="horizontalOne">
+  <img src="images/voteoftheday.png" class="img-responsive center-block voteday">
+  <!--Vote for car section-->
   <div class="container votesection">
     <div class="row votesquares">
       <div class="col-sm-6">
+<<<<<<< HEAD
         <a href="#myModal" role="button" data-toggle="modal" data-target=".458Modal" id="firstModal">
         <div class="squareOne">
           <div class="vote1"><img src="images/libertywalk458.jpg" class="img-responsive italia458"></div>
@@ -172,16 +175,56 @@
               <div class="modal-body"><h4>Thank you for voting!</h4></div>
               <div class="modal-footer">
                 <button type="button" class="btn btn-default">Close</button></a>
+=======
+        <a href="#siteModal" role="button" data-toggle="modal" data-target=".modalOne" id="firstModal">
+        <div class="squareOne">
+          <div class="vote1">
+            <img src="images/libertywalk458.jpg" class="img-responsive italia458">
+            <div class="italiastyle">
+              <h2>Ferrari 458 Italia</h2>
+              <p class="voteitalia">Vote<span><i class="fa fa-check fa-1x"></i>
+            </div>
+            <div class="modal modalOne" tabindex="-1" role="dialog">
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <div class="modal-body"><h4>Thanks for voting!</h4></div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default">Close</button></a>
+                  </div>
+                </div>
+>>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
               </div>
             </div>
           </div>
         </div>
       </div>
       <div class="col-sm-6">
+<<<<<<< HEAD
         <a href="#myModal" role="button" data-toggle="modal" data-target=".secondModal">
         <div class="gtrsquare">
           <div class="vote2"><img src="images/libertywalkgtr.jpg" class="img-responsive r35gtr"></div>
           <p class="gtrstyle">Nissan GTR R35 LB</p>
+=======
+        <a href="#siteModal" role="button" data-toggle="modal" data-target=".modalTwo" id="secondModal">
+        <div class="squareTwo">
+          <div class="vote2">
+            <img src="images/libertywalkgtr.jpg" class="img-responsive r35gtr">
+            <div class="gtrstyle">
+              <h2>Nissan R35 GT-R</h2>
+              <p class="voteitalia">Vote<span><i class="fa fa-check fa-1x"></i>
+            </div>
+            <div class="modal modalTwo" tabindex="-1" role="dialog">
+              <div class="modal-dialog modal-sm">
+                <div class="modal-content">
+                  <div class="modal-body"><h4>Thanks for Voting!</h4></div>
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-default">Close</button></a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+>>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
         </div>
         <div class="modal secondModal" tabindex="-1" role="dialog">
           <div class="modal-dialog modal-sm">
@@ -200,16 +243,18 @@
       </div>
     </div>
   </div>
+  <hr width="600" size="500" class="horizontalTwo">
   <!--Google Race Map-->
+  <img src="images/racemaplogo.png" class="raceHead img-responsive center-block">
   <div class="container">
     <div class="col-sm-12">
       <div id="floating-panel">
         <b>Start: </b>
         <select id="start" onchange="calcRoute();">
-          <option value="3951 Irvine Blvd, Irvine, CA 92602">NorthPark Plaza</option>
-          <option value="3951 Irvine Blvd, Irvine, CA 92602">NorthPark Plaza</option>
-          <option value="3951 Irvine Blvd, Irvine, CA 92602">NorthPark Plaza</option>
-          <option value="3951 Irvine Blvd, Irvine, CA 92602">NorthPark Plaza</option>
+          <option value="4590 MacArthur Blvd, Newport Beach, CA 92660">OCCS</option>
+          <option value="5500 Irvine Center Dr, Irvine, CA 92618">Irvine Valley College</option>
+          <option value="University of California, Irvine
+          Irvine, CA 92697 ">UCI</option>
           <option value="3951 Irvine Blvd, Irvine, CA 92602">NorthPark Plaza</option>
         </select>
         <b>End: </b>
@@ -217,38 +262,61 @@
           <option value="670 Spectrum Center Dr, Irvine, CA 92618">Irvine Spectrum</option>
           <option value="1111 S Figueroa St, Los Angeles, CA 90015">Staples Center</option>
           <option value="1000 Elysian Park Ave, Los Angeles, CA 90012">Dodgers Stadium</option>
-
+          <option value="2800 E Observatory Rd, Los Angeles, CA 90027">Griffith Observatory</option>
         </select>
       </div>
       <div id="map"></div>
-        <script src="./googleapi/directions.js"></script>
+        <script src="./googleapi/googlemap.js"></script>
         <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBxlOSIO2OxUusILsiaBWaXeaU42s-MNss&signed_in=true&callback=initMap"></script>
       </div>
     </div>
   </div>
-  <div class="container">
+  <!--Top racers in the area-->
+  <div class="container topScores">
+    <div class="row">
+      <img src="images/topracerslogo.png" class="center-block img-responsive topracers">
+    </div>  
     <div class="row scoreboard">
       <div class="col-sm-4">
-        <div class="topg37">
-          <img src="images/libertywalkg37.jpg" class="center-block lbg37">
+        <div class="statsOne">
+          <img src="images/libertywalkg37.jpg" class="img-responsive">
+          <div class="g37Style">
+            <h3>Stats</h3>
+            <p class="viewOne">Ghost<br>Car: INFINITI G37<br>Tune: Stage 3<br>W/L: 16/2<br></p>
+          </div>
         </div>
       </div>
       <div class="col-sm-4">
+<<<<<<< HEAD
         <div class="topg37">
           <img src="images/greenvotearrow.png" class="center-block lbg37"> 
+=======
+        <div class="statsTwo">
+          <img src="images/gtrstatpic.jpg" class="img-responsive">
+          <div class="m4Style">
+            <h3>Stats</h3>
+            <p class="viewTwo">Bob<br>Car: R35 GT-R<br>Tune: Stage 3<br>W/L: 14/3<br></p>
+          </div>
+>>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="topg37">
-          <img src="images/libertywalkg37.jpg" class="center-block lbg37">
+        <div class="statsThree">
+          <img src="images/libertywalkporsche.jpg" class="img-responsive">
+          <div class="porscheStyle">
+            <h3>Stats</h3>
+            <p class="viewThree">Speedy<br>Car: PORSCHE 911 GT4<br>Tune: Stage 3<br>W/L: 12/5<br></p>
+          </div>
         </div>
       </div>
     </div>
   </div>
+  <!--Social media section-->
+  <hr width="600" size="500" class="horizontalTwo">
   <div class="container socialmedia">
     <div class="row">
       <div class="col-sm-12">
-        <p class="followus">Follow us on social media!</p>
+        <img src="images/socialmedialogo.png" class="center-block followus">
       </div>
     </div>
     <div class="row socialicons">
@@ -282,7 +350,7 @@
         <div class="media">
           <div class="media-left media-top">
             <a href="http://www.instagram.com">
-              <i class="fa fa-instagram fa-5x instaicon"></i></a>2
+              <i class="fa fa-instagram fa-5x instaicon"></i></a>
             </a>
           </div>
           <div class="media-body">
@@ -291,30 +359,7 @@
           </div>
         </div>
       </div>
-      
-  
-
-
-
-
-
-
-
-
+    </div>
+  </div>
 </body>
 </html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
