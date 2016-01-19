@@ -2,11 +2,32 @@ function initMap() {
   var directionsService = new google.maps.DirectionsService;
   var directionsDisplay = new google.maps.DirectionsRenderer;
   var map = new google.maps.Map(document.getElementById('map'), {
+<<<<<<< HEAD:googleapi/directions.js
     zoom: 7,
     center: {lat: 41.85, lng: -87.65}
+=======
+    zoom: 12,
+    center: {lat: 33.6694444, lng: -117.8222222}
+
+<<<<<<< HEAD:googleapi/googlemap.js
+>>>>>>> 8254c01... Added text overlay for build vote section #2:googleapi/googlemap.js
+=======
+>>>>>>> 888ca5f... #2 Added text overlay for build vote section:googleapi/googlemap.js
+>>>>>>> accf25b4023661d99e5be130b8e8544a0d415fff:googleapi/googlemap.js
   });
   directionsDisplay.setMap(map);
 
+<<<<<<< HEAD:googleapi/directions.js
+=======
+  /*Traffic Layer*/
+  var trafficLayer = new google.maps.TrafficLayer();
+  trafficLayer.setMap(map);
+
+<<<<<<< HEAD:googleapi/googlemap.js
+>>>>>>> 8254c01... Added text overlay for build vote section #2:googleapi/googlemap.js
+=======
+>>>>>>> 888ca5f... #2 Added text overlay for build vote section:googleapi/googlemap.js
+>>>>>>> accf25b4023661d99e5be130b8e8544a0d415fff:googleapi/googlemap.js
   var onChangeHandler = function() {
     calculateAndDisplayRoute(directionsService, directionsDisplay);
   };
@@ -23,7 +44,7 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
     if (status === google.maps.DirectionsStatus.OK) {
       directionsDisplay.setDirections(response);
     } else {
-      window.alert('Directions request failed due to ' + status);
+      window.alert('Directions request failed due to' + status);
     }
   });
 }
