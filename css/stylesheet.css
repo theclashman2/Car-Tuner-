@@ -1,241 +1,204 @@
 /*Main page background*/
 body {
-  background-color:#242424;
+  background-color: #242424;
 }
 
 /*Main Nav Components*/
 .navbar {
-  background:transparent;
+  background: transparent;
   background-color: rgba(255,255,255,0.5);
-  border:1px solid black;
-  padding:0;
+  border: 1px solid black;
+  padding: 0;
 }
 
 /*streeTRACE logo*/
 .streetlogo {
-  padding-top:2px;
-  padding-left:3px;
+  padding-top: 2px;
+  padding-left: 3px;
 }
 
 /*Nav dropdown spacing*/
 .dropstyle {
-  margin-right:0.1px;
+  margin-right: 0.1px;
 }
 
 /*Dropdown header styling*/
 .dropheads {
-  color:#4f4f4f;
-  font-family:'Open Sans';
-  font-size:19px;
-  font-weight:bold;
-  margin-right:10px;
+  color: #4f4f4f;
+  font-family: 'Open Sans';
+  font-size: 19px;
+  font-weight: bold;
+  margin-right: 10px;
 }
 
 /*Dropdown list styling*/
 .dropliststyle {
-  color:#4f4f4f;
-  font-size:17px;
+  color: #4f4f4f;
+  font-size: 17px;
 }
 
 /*Dropdown list background*/
 .dropbackground {
-  background:transparent;
+  background: transparent;
   background-color: rgba(255,255,255,0.7);
 }
 
-
-
-
-
-
-
-
 /*GTR main page picture*/
 .gtrmain {
-  width:100%;
-  opacity:0.8;
+  width: 100%;
+  opacity: 0.8;
 }
 
 /*GTR image text overlay positioning*/
 .wrap {
-  margin:auto;
-  position:relative;
+  margin: auto;
+  position: relative;
 }
 
 .wrap img {
-  width:100%;
-  height:auto;
-  border:1px solid #000;
+  width: 100%;
+  height: auto;
+  border: 1px solid #000;
 }
 
 .caption {
-  position:absolute;
-  top:10px;
-  left:1px;
-  right:2;
-  bottom:0px;
-  overflow:hidden;
+  position: absolute;
+  top: 10px;
+  left: 1px;
+  right: 2;
+  bottom: 0px;
+  overflow: hidden;
 }
 
 .caption-inner {
-  display:table;
-  width:100%;
-  height:100%;
+  display: table;
+  width: 100%;
+  height: 100%;
 }
 
 .caption-content {
-  display:table-cell;
-  vertical-align:middle;
+  display: table-cell;
+  vertical-align: middle;
 }
 
 .caption-content h1 {
-  margin:430px 0px 0px 0px;
-  background:rgba(255,255,255,0.4);
-  padding:10px;
-
+  margin: 430px 0px 0px 0px;
+  background: rgba(255,255,255,0.4);
+  padding: 10px;
 }
-
-
 
 /*Nextlevel image text overlay styling*/
 .nextlevel {
-  font-weight:bold;
-  color:#242424;
-  font-size:43px;
-  font-family:'Helvetica';
+  color: #242424;
+  font-size: 43px;
+  font-family: 'Helvetica';
+  font-weight: bold;
 }
 
 /*Nextlevel image text overlay "racing" styling*/
 .racing {
-  color:#ED1C26;
-  font-style:italic;
-  font-weight:1000;
+  color: #ED1C26;
+  font-style: italic;
+  font-weight: 1000;
 }
-
-
 
 /*Sponsor logo positioning*/
 .sponsors1 {
-  margin-top:50px;
+  margin-top: 50px;
 }
-
 
 .sponsors2 {
-  margin-top:50px;
+  margin-top: 50px;
 }
-
-
-
-
 
 /*Speedhunters logo styling*/
 .speedhunters {
-  border:2px solid #4f4f4f;
-  border-top:none;
-  border-left:none;
-  border-right:none;
+  border: 2px solid #4f4f4f;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 .speedhunters:hover {
-  border-color:#ED1C26;
+  border-color: #ED1C26;
 }
-
-
 
 /*Motorhead logo styling*/
 .motorhead {
-  border:2px solid #4f4f4f;
-  border-top:none;
-  border-left:none;
-  border-right:none;
+  border: 2px solid #4f4f4f;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 .motorhead:hover {
-  border-color:#ED1C26;
+  border-color: #ED1C26;
 }
-
-
 
 /*Fi-exhaust logo styling*/
 .fiexhaust {
-  border:2px solid #4f4f4f;
-  border-top:none;
-  border-left:none;
-  border-right:none;
+  border: 2px solid #4f4f4f;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 .fiexhaust:hover {
-  border-color:#ED1C26;
+  border-color: #ED1C26;
 }
-
-
 
 /*Formula drift logo styling*/
 .formuladrift {
-  border:2px solid #4f4f4f;
-  border-top:none;
-  border-left:none;
-  border-right:none;
+  border: 2px solid #4f4f4f;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 .formuladrift:hover {
-  border-color:#ED1C26;
+  border-color: #ED1C26;
 }
-
-
 
 /*Forgiato logo styling*/
 .forgiato {
-  border:2px solid #4f4f4f;
-  border-top:none;
-  border-left:none;
-  border-right:none;
+  border: 2px solid #4f4f4f;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 .forgiato:hover {
-  border-color:#ED1C26;
+  border-color: #ED1C26;
 }
-
-
 
 /*Skyforged logo styling*/
 .skyforged {
-  border:2px solid #4f4f4f;
-  border-top:none;
-  border-left:none;
-  border-right:none;
+  border: 2px solid #4f4f4f;
+  border-top: none;
+  border-left: none;
+  border-right: none;
 }
 
 .skyforged:hover {
-  border-color:#ED1C26;
+  border-color: #ED1C26;
 }
-
-
-
-
-
-
-
-
 
 /*Website feature images section*/
 .features {
-  margin-top:90px;
-  font-size:17px;
-  font-family:'Open Sans';
+  font-family: 'Open Sans';
+  font-size: 17px;
+  margin-top: 90px;
 }
-
-
 
 /*Car builds feature image and text overlay styling*/
 .subiefeature {
-  opacity:0.9;
+  opacity: 0.9;
 }
 
 .buildsfeature {
-  position:relative;
-  border:1px solid black;
-  background-color:black;
+  position: relative;
+  border: 1px solid black;
+  background-color: black;
 }
 
 .buildsfeature:hover {
@@ -243,30 +206,24 @@ body {
 }
 
 .buildsheader {
+  color: #fff;
+  text-align: center;
   position: absolute;
   background-color: rgba(15, 15, 15, 0.93);
-  color: #fff;
   bottom: 0px;
-  text-align: center;
+  width: 100%;
   padding: 10px 5px 10px 5px;
-  width:100%;
 }
-
-
-
-
-
-
 
 /*Car parts feature image and text overlay styling*/
 .enginefeature {
-  opacity:0.9;
+  opacity: 0.9;
 }
 
 .partsfeature {
-  position:relative;
-  border:1px solid black;
-  background-color:black;
+  position: relative;
+  border: 1px solid black;
+  background-color: black;
 }
 
 .partsfeature:hover {
@@ -274,27 +231,24 @@ body {
 }
 
 .partsheader {
+  color: #fff;
+  text-align: center;
   position: absolute;
   background-color: rgba(15, 15, 15, 0.93);
-  color: #fff;
   bottom: 0px;
-  text-align: center;
   padding: 10px 5px 10px 5px;
-  width:100%;
+  width: 100%;
 }
-
-
-
 
 /*Guides feature image and text overlay styling*/
 .stickfeature {
-  opacity:0.9;
+  opacity :0.9;
 }
 
 .guidesfeature {
-  position:relative;
-  border:1px solid black;
-  background-color:black;
+  position: relative;
+  border: 1px solid black;
+  background-color: black;
 }
 
 .guidesfeature:hover {
@@ -308,22 +262,18 @@ body {
   bottom: 0px;
   text-align: center;
   padding: 10px 5px 10px 5px;
-  width:100%;
+  width: 100%;
 }
-
-
-
-
 
 /*Racing map feature image and text overlay styling*/
 .racingfeature {
-  opacity:0.8;
+  opacity: 0.8;
 }
 
 .mapsfeature {
-  position:relative;
-  border:1px solid black;
-  background-color:black;
+  position: relative;
+  border: 1px solid black;
+  background-color: black;
 }
 
 .mapsfeature:hover {
@@ -331,124 +281,753 @@ body {
 }
 
 .mapsheader {
+  color: #fff;
+  text-align: center;
   position: absolute;
   background-color: rgba(15, 15, 15, 0.93);
-  color: #fff;
+  width: 100%;
   bottom: 0px;
-  text-align: center;
   padding: 10px 5px 10px 5px;
-  width:100%;
 }
 
+/*Horizontal lines*/
+.horizontalOne {
+  border: 3px solid black;
+  margin-top: 70px;
+ 
+}
 
+.horizontalTwo {
+  border: 3px solid black;
+  margin-top: 50px;
+}
 
-/*Horizontal line*/
-.horizontal {
+/*Start of vote build section*/
+.voteday {
+  padding-top: 10px;
+}
+
+/*Ferrari 458 car vote section*/
+.italia458 {
+  border: 6px solid black;
+}
+
+<<<<<<< HEAD
+/*Horizontal lines*/
+.horizontalOne {
   margin-top:70px;
   border:3px solid black;
 }
 
-
-
-
-
-
-/*Ferrari 458 car vote section*/
+.horizontalTwo {
+  margin-top:50px;
+  border:3px solid black;
+=======
 .votesection {
-  margin-top:60px;
+  margin-top: 35px;
 }
-
 
 .votesquares {
-  margin-top:20px;
+  margin-top: 1px;
 }
 
-
-.square458 {
+.squareOne {
   width: 100%;
-  height: 480px;
+  height: 100%;
   position: relative;
 }
 
-
 .vote1 {
-  z-index: -1;
+  width: 100%;
+  height: 78%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  background: black;
   top: 0;
   left: 0;
   background-size: 100% auto;
-  position: absolute;
+>>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+}
+
+.vote1 .italiastyle {
   width: 100%;
-  height:78%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  bottom: 20px;
+  left: 0;
+}
 
+.vote1 img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: 100%;
+  transition: opacity 0.35s, transform 0.35s;
+}
 
+.vote1:hover img {
+  opacity: 0.4;
+}
+
+<<<<<<< HEAD
+/*Start of vote build section*/
+.voteday {
+  color:white;
+  font-size:24px;
+  text-align:center;
+  padding-top:10px;
+  font-family:'Helvetica';
 }
 
 
+/*Ferrari 458 car vote section*/
 .italia458 {
   border:6px solid black;
 }
 
 
-
-
-.italiastyle {
-  font-size:25px;
-  background-color: rgba(15,15,15,0.75);
-  color:#fff;
-  bottom: 0px;
+.votesection {
+  margin-top:35px;
+=======
+.vote1 h2 {
+  color: #fff;
   text-align: center;
-  padding: 10px 5px 10px 5px;
-  width:100%;
-  border-left:none;
-  border-right:none;
-  font-family:'Helvetica';
-  font-weight:300;
+  font-size: 17px;
+  overflow: hidden;
+  padding: 18px 50px 13px 50px;
+  background-color: rgba(15,15,15,0.85);
+  width: 100%;
+  font-size: 22px;
+  bottom: 0px;
+  font-weight: 300;
+  font-family: 'Helvetica';
+  border-left: none;
+  border-right: none;
 }
 
+.vote1 p {
+  color: green;
+  opacity: 0;
+  transition: opacity 0.35s, transform 0.35s;
+  transform: translate3d(100%,0,0);
+>>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+}
 
+.vote1:hover p {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+  color: green;
+}
 
-
-
+<<<<<<< HEAD
+.votesquares {
+  margin-top:1px;
+=======
+.voteitalia {
+  font-size: 30px;
+  font-family: 'Helvetica';
+  padding-top: 100px;
+>>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+}
 
 /*Nissan GTR car vote section*/
-.gtrsquare {
+.r35gtr {
+  border: 6px solid black;
+}
+
+<<<<<<< HEAD
+.squareOne {
+=======
+.squareTwo {
+>>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
   width: 100%;
-  height: 480px;
+  height: 100%;
   position: relative;
 }
 
+<<<<<<< HEAD
 
+.vote1 {
+  width: 100%;
+  height: 78%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  background: black;
+  top:0;
+  left:0;
+  background-size:100% auto;
+}
+
+
+.vote1 .italiastyle {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  bottom:20px;
+  left: 0;
+=======
 .vote2 {
-  z-index: -1;
+  width: 100%;
+  height: 78%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  background: black;
   top: 0;
   left: 0;
   background-size: 100% auto;
-  position: absolute;
+}
+
+.vote2 .gtrstyle {
   width: 100%;
-  height:78%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  bottom: 20px;
+  left: 0;
 }
 
-
-.r35gtr {
-  border:6px solid black;
-
-
+.vote2 img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: 100%;
+  transition: opacity 0.35s, transform 0.35s;
 }
 
+.vote2:hover img {
+  opacity: 0.4;
+}
+>>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
 
-
-.gtrstyle {
-  font-size:25px;
-  background-color: rgba(15,15,15,0.75);
-  color:#fff;
-  bottom: 0px;
+.vote2 h2 {
+  color: #fff;
   text-align: center;
-  padding: 10px 5px 10px 5px;
+  font-size: 17px;
+  overflow: hidden;
+  padding: 15px 50px 13px 50px;
+  background-color: rgba(15,15,15,0.50);
+  width: 100%;
+  font-size: 22px;
+  bottom: 0px;
+  font-weight: 300;
+  font-family: 'Helvetica';
+  border-left: none;
+  border-right: none;
+}
+
+.vote2 p {
+  color: green;
+  opacity: 1;
+  transition: opacity 0.35s, transform 0.35s;
+  transform: translate3d(100%,0,0);
+}
+
+<<<<<<< HEAD
+.vote1 img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: 100%;
+  transition: opacity 0.35s, transform 0.35s;
+=======
+.vote2:hover p {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+>>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+}
+
+.votegtr {
+  font-size: 30px;
+  font-family: 'Helvetica';
+  padding-top: 100px;
+}
+
+<<<<<<< HEAD
+.vote1:hover img {
+  opacity: 0.4;
+=======
+/*Vote modal styling*/
+.modal {
+  text-align: center;
+>>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+}
+
+.modal:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -4px;
+}
+
+<<<<<<< HEAD
+.vote1 h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  overflow: hidden;
+  padding: 18px 50px 13px 50px;
+  background-color: rgba(15,15,15,0.85);
   width:100%;
+  font-size:25px;
+  bottom:0px;
+  font-weight:300;
+  font-family:'Helvetica';
   border-left:none;
   border-right:none;
+}
+
+
+.vote1 p {
+  color: #FFF;
+  opacity: 0;
+  transition: opacity 0.35s, transform 0.35s;
+  transform: translate3d(100%,0,0);
+}
+
+
+.vote1:hover p {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+}
+
+.voteitalia {
+  padding-top:70px;
+  font-size:30px;
   font-family:'Helvetica';
+=======
+.modal-dialog {
+  border: 5px solid black;
+  display: inline-block;
+  text-align: middle;
+  vertical-align: middle;
+}
+
+.modal-body {
+  font-size: 15px;
+  font-family: 'Helvetica';
+  color: black;
+}
+
+.modal-footer {
+  text-align: center;
+>>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+}
+
+.btn-default {
+  font-size: 13px;
+  border: 1px solid black;
+}
+
+/*Race map header styling*/
+.raceHead {
+  color: white;
+  font-size: 27px;
+  font-family: 'Helvetica';
+  text-align: center;
+  margin-top: 28px;
+}
+
+#map {
+  border: 15px solid black;
+  margin-top: 30px;
+}
+
+#floating-panel {
+  margin-top: 35px;
+  margin-right: 90px;
+}
+
+/*Top racer scoreboard section styling*/
+.topScores {
+  padding-bottom:20px;
+}
+
+<<<<<<< HEAD
+/*Nissan GTR car vote section*/
+.r35gtr {
+  border:6px solid black;
+}
+
+
+.squareTwo {
+  width: 100%;
+  height: 100%;
+  position: relative;
+=======
+.topracers {
+  margin-top: 20px;
+>>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+}
+
+.scoreboard {
+  margin-top: 20px;
+}
+
+<<<<<<< HEAD
+.vote2 {
+  width: 100%;
+  height: 78%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  background: black;
+  top:0;
+  left:0;
+  background-size:100% auto;
+=======
+/*G37 top racer section*/
+.statsOne {
+  width: 100%;
+  height: 78%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  background: black;
+  top: 0;
+  left: 0;
+  background-size: 100% auto;
+  border: 9px solid black;
+}
+
+.statsOne .g37Style {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  overflow: hidden;
+  bottom: 44px;
+  left: 0;
+>>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+}
+
+.statsOne img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: 100%;
+  opacity: 1;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+<<<<<<< HEAD
+.vote2 .gtrstyle {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  overflow: hidden;
+  bottom:20px;
+  left: 0;
+=======
+.statsOne:hover img {
+  opacity: 0.6;
+>>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+}
+
+.statsOne h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  overflow: hidden;
+  padding: 8px 50px 8px 50px;
+  background-color: rgba(15,15,15,0.85);
+  width: 100%;
+  font-size: 19px;
+  bottom: 0px;
+  font-weight: 300;
+  font-family: 'Helvetica';
+  border-left: none;
+  border-right: none;
+}
+
+<<<<<<< HEAD
+.vote2 img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: 100%;
+  transition: opacity 0.35s, transform 0.35s;
+=======
+.statsOne p {
+  color: #FFF;
+  opacity: 0;
+  text-align: left;
+  padding-top: 10px;
+  transition: opacity 0.35s, transform 0.35s;
+  transform: translate3d(100%,0,0);
+>>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+}
+
+.statsOne:hover p {
+  opacity: 10;
+  transform: translate3d(0,0,0);
+}
+
+<<<<<<< HEAD
+.vote2:hover img {
+  opacity: 0.4;
+}
+
+
+.vote2 h2 {
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  overflow: hidden;
+  padding: 18px 50px 13px 50px;
+  background-color: rgba(15,15,15,0.50);
+  width:100%;
+  font-size:25px;
+  bottom:0px;
   font-weight:300;
+  font-family:'Helvetica';
+  border-left:none;
+  border-right:none;
+=======
+.viewOne {
+  font-size: 20px;
+  font-family: 'Helvetica';
+}
+
+/*M4 top racer section*/
+.statsTwo {
+  width: 100%;
+  height: 78%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  background: black;
+  top: 0;
+  left: 0;
+  background-size: 100% auto;
+  border: 9px solid black;
+>>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+}
+
+.statsTwo .m4Style {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  overflow: hidden;
+  bottom: 44px;
+  left: 0;
+}
+
+<<<<<<< HEAD
+.vote2 p {
+  color: #FFF;
+  opacity: 0;
+  transition: opacity 0.35s, transform 0.35s;
+  transform: translate3d(100%,0,0);
+}
+
+
+.vote2:hover p {
+  opacity: 1;
+  transform: translate3d(0,0,0);
+=======
+.statsTwo img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: 100%;
+  opacity: 0.8;
+  transition: opacity 0.35s, transform 0.35s;
+>>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+}
+
+.statsTwo:hover img {
+  opacity: 0.5;
+}
+
+<<<<<<< HEAD
+.votegtr {
+  padding-top:70px;
+  font-family:'Helvetica';
+  font-size:30px;
+}
+
+
+
+
+
+/*Vote modal styling*/
+.modal {
+  text-align:center;
+}
+
+.modal:before {
+  content:'';
+  display:inline-block;
+  height:100%;
+  vertical-align:middle;
+  margin-right:-4px;
+}
+
+.modal-dialog {
+  display:inline-block;
+  text-align:middle;
+  vertical-align:middle;
+  border:5px solid black;
+}
+
+.modal-body {
+  font-size:20px;
+  font-family:'Helvetica';
+  color:black;
+}
+
+.modal-title {
+  color:black;
+  font-family:'Helvetica';
+}
+
+.modal-footer {
+  text-align:center;
+}
+
+
+=======
+.statsTwo h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  overflow: hidden;
+  padding: 8px 50px 8px 50px;
+  background-color: rgba(15,15,15,0.85);
+  width: 100%;
+  font-size: 19px;
+  bottom: 0px;
+  font-weight: 300;
+  font-family: 'Helvetica';
+  border-left: none;
+  border-right: none;
+}
+
+.statsTwo p {
+  color: #FFF;
+  opacity: 0;
+  text-align: left;
+  padding-top: 10px;
+  transition: opacity 0.35s, transform 0.35s;
+  transform: translate3d(100%,0,0);
+}
+
+.statsTwo:hover p {
+  opacity: 10;
+  transform: translate3d(0,0,0);
+}
+
+.viewTwo {
+  font-size: 20px;
+  font-family: 'Helvetica';
+}
+
+/*Porsche top racer section*/
+.statsThree {
+  width: 100%;
+  height: 78%;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  background: black;
+  top: 0;
+  left: 0;
+  background-size: 100% auto;
+  border: 9px solid black;
+}
+
+.statsThree .porscheStyle {
+  width: 100%;
+  height: 90%;
+  position: absolute;
+  overflow: hidden;
+  bottom: 44px;
+  left: 0;
+}
+>>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+
+.statsThree img {
+  display: block;
+  position: relative;
+  max-width: none;
+  width: 100%;
+  opacity:1;
+  transition: opacity 0.35s, transform 0.35s;
+}
+
+.statsThree:hover img {
+  opacity: 0.6;
+}
+
+.statsThree h3 {
+  color: #fff;
+  text-align: center;
+  font-size: 17px;
+  overflow: hidden;
+  padding: 8px 50px 8px 50px;
+  background-color: rgba(15,15,15,0.85);
+  width: 100%;
+  font-size: 19px;
+  bottom: 0px;
+  font-weight: 300;
+  font-family: 'Helvetica';
+  border-left: none;
+  border-right: none;
+}
+
+.statsThree p {
+  color: #FFF;
+  opacity: 0;
+  text-align: left;
+  padding-top: 10px;
+  transition: opacity 0.35s, transform 0.35s;
+  transform: translate3d(100%,0,0);
+}
+
+.statsThree:hover p {
+  opacity: 10;
+  transform: translate3d(0,0,0);
+}
+
+.viewThree {
+  font-size: 20px;
+  font-family: 'Helvetica';
+}
+
+<<<<<<< HEAD
+/*Race map header styling*/
+.raceHead {
+  margin-top:28px;
+  color:white;
+  text-align:center;
+  font-size:27px;
+  font-family:'Helvetica';
+=======
+/*Social media section*/
+.socialmedia {
+  margin-top:40px;
+>>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+}
+
+.followus {
+  margin-top: 20px;
+}
+
+<<<<<<< HEAD
+#map {
+  margin-top:30px;
+  border:1px solid black;
+}
+
+
+#floating-panel {
+  margin-top:20px;
+  margin-right:20px;
 }
 
 
@@ -456,9 +1035,17 @@ body {
 
 
 
+/*Top racer scoreboard section styling*/
+.topracers {
+  margin-top:40px;
+  text-align:center;
+  color:white;
+  font-family:'Helvetica';
+  font-size:30px;
+}
 
 .scoreboard {
-  margin-top:100px;
+  margin-top:20px;
 }
 
 
@@ -467,93 +1054,185 @@ body {
 }
 
 
-.lbm4 {
-  border:5px solid black;
+
+
+
+
+
+
+.box {  
+  background-image:url('../images/libertywalkg37.jpg');
+  overflow:hidden;
+  position:relative;
 }
 
 
 
+.overlay {  
+  background:rgba(0,0,0,.75);
+  padding:50px 0px;
+  opacity:0;
+}
 
 
+.box:hover .overlay {
+  opacity:1;
+}
 
 
-
-/*Social media section*/
-.followus {
-  color:white;
-  font-size:28px;
+.plus { 
+  font-family:'Helvetica';
+  font-weight:900;
+  color:rgba(255,255,255,.85);
+  font-size:17px;
   text-align:center;
-  margin-top:80px;
-  font-family:'Open Sans';
-}
-
-
+  color:#fff;
+  padding:10px 5px 10px 5px;
+  width:100%;
+=======
 .socialicons {
-  margin-top:50px;
-
+  margin-top: 50px;
 }
-
-
 
 /*Facebook icon section*/
 .fbicon {
-  color:#ED1C26;
-  font-size:80px;
-
+  color: #ED1C26;
+  font-size: 80px;
 }
 
 .fbheader {
-  color:white;
-  font-family:'Open Sans';
-  font-size:25px;
+  font-family: 'Open Sans';
+  font-size: 25px;
+  color: white;
 }
 
 .fbtext {
-  color:white;
-  font-size:15px;
-  font-family:'Open Sans';
+  font-size: 15px;
+  font-family: 'Open Sans';
+  color: white;
 }
-
-
-
 
 /*Youtube icon section*/
 .tubeicon {
-  color:#ED1C26;
-  font-size:80px;
+  color: #ED1C26;
+  font-size: 80px;
 }
 
 .tubeheader {
-  font-family:'Open Sans';
-  font-size:25px;
-  color:white;
+  font-family: 'Open Sans';
+  font-size: 25px;
+  color: white;
 }
 
 .tubetext {
-  font-family:'Open Sans';
-  font-size:15px;
-  color:white;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  color: white;
 }
-
-
 
 /*Instagram icon section*/
 .instaicon {
-  color:#ED1C26;
-  font-size:80px;
+  color: #ED1C26;
+  font-size: 80px;
 }
 
 .instaheader {
-  font-family:'Open Sans';
-  font-size:25px;
-  color:white;
+  font-family: 'Open Sans';
+  font-size: 25px;
+  color: white;
 }
 
 .instatext {
-  font-family:'Open Sans';
-  font-size:15px;
-  color:white;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  color: white;
+>>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
 }
+
+
+
+
+
+
+
+
+
+
+   /*Social media section*/
+  .followus {
+    color:white;
+    font-size:28px;
+    text-align:center;
+    margin-top:80px;
+    font-family:'Open Sans';
+  }
+
+  .socialicons {
+    margin-top:50px;
+
+  }
+
+
+
+  /*Facebook icon section*/
+  .fbicon {
+    color:#ED1C26;
+    font-size:80px;
+
+  }
+
+  .fbheader {
+    color:white;
+    font-family:'Open Sans';
+    font-size:25px;
+  }
+
+  .fbtext {
+    color:white;
+    font-size:15px;
+    font-family:'Open Sans';
+  }
+
+
+
+
+  /*Youtube icon section*/
+  .tubeicon {
+    color:#ED1C26;
+    font-size:80px;
+  }
+
+  .tubeheader {
+    font-family:'Open Sans';
+    font-size:25px;
+    color:white;
+  }
+
+  .tubetext {
+    font-family:'Open Sans';
+    font-size:15px;
+    color:white;
+  }
+
+
+
+  /*Instagram icon section*/
+  .instaicon {
+    color:#ED1C26;
+    font-size:80px;
+  }
+
+  .instaheader {
+    font-family:'Open Sans';
+    font-size:25px;
+    color:white;
+  }
+
+  .instatext {
+    font-family:'Open Sans';
+    font-size:15px;
+    color:white;
+  }
 
 
 

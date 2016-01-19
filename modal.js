@@ -1,6 +1,12 @@
+<<<<<<< HEAD
 function firstModal () {
 
   var italiaContainer = document.getElementById('testing');
+=======
+function italiaModal () {
+
+  var italiaContainer = document.getElementById('fModal');
+>>>>>>> a4e5791c8586ee6145f60b5f5446e5dd1da9b9d5
   italiaContainer.setAttribute('class', 'container votesection');
 
   var italiaRow = document.createElement('div');
@@ -12,7 +18,11 @@ function firstModal () {
   var italia = document.createElement('a');
   italia.setAttribute('id', 'firstModal');
   italia.setAttribute('role', 'button');
+<<<<<<< HEAD
   italia.setAttribute('href', '#myModal');
+=======
+  italia.setAttribute('href', '#siteModal');
+>>>>>>> a4e5791c8586ee6145f60b5f5446e5dd1da9b9d5
   italia.setAttribute('data-toggle', 'modal');
   italia.setAttribute('data-target', '.modalOne');
 
@@ -30,7 +40,10 @@ function firstModal () {
   italiaCaption.setAttribute('class', 'italiastyle');
   var italiaOverlay = document.createTextNode('Ferrari 458 LB');
 
+<<<<<<< HEAD
 
+=======
+>>>>>>> a4e5791c8586ee6145f60b5f5446e5dd1da9b9d5
   var italiaOuter = document.createElement('div');
   italiaOuter.setAttribute('class', 'modal modalOne');
   italiaOuter.setAttribute('tabindex', '-1');
@@ -51,12 +64,18 @@ function firstModal () {
   italiaClick.setAttribute('data-dismiss', 'modal');
   italiaClick.setAttribute('aria-label', 'Close');
 
+<<<<<<< HEAD
   var italiaHide = document.createElement('span');
   var italiaEx = document.createTextNode('&times;');
 
   var italiaTitle = document.createElement('h4');
   italiaTitle.setAttribute('class', 'modal-title');
   var italiaHead = document.createTextNode('Modal Title');
+=======
+  var italiaTitle = document.createElement('h4');
+  italiaTitle.setAttribute('class', 'modal-title');
+  var italiaHead = document.createTextNode('Success!');
+>>>>>>> a4e5791c8586ee6145f60b5f5446e5dd1da9b9d5
 
   var italiaBody = document.createElement('div');
   italiaBody.setAttribute('class', 'modal-body');
@@ -85,8 +104,11 @@ function firstModal () {
   italiaContainer.appendChild(italiaContent);
   italiaContainer.appendChild(italiaHeader);
   italiaContainer.appendChild(italiaClick);
+<<<<<<< HEAD
   italiaContainer.appendChild(italiaHide);
   italiaContainer.appendChild(italiaEx);
+=======
+>>>>>>> a4e5791c8586ee6145f60b5f5446e5dd1da9b9d5
   italiaContainer.appendChild(italiaTitle);
   italiaContainer.appendChild(italiaHead);
   italiaContainer.appendChild(italiaBody);
@@ -108,8 +130,11 @@ function firstModal () {
   italiaRow.appendChild(italiaContent);
   italiaRow.appendChild(italiaHeader);
   italiaRow.appendChild(italiaClick)
+<<<<<<< HEAD
   italiaRow.appendChild(italiaHide);
   italiaRow.appendChild(italiaEx);
+=======
+>>>>>>> a4e5791c8586ee6145f60b5f5446e5dd1da9b9d5
   italiaRow.appendChild(italiaTitle);
   italiaRow.appendChild(italiaHead);
   italiaRow.appendChild(italiaBody);
@@ -130,8 +155,11 @@ function firstModal () {
   italiaCol.appendChild(italiaContent);
   italiaCol.appendChild(italiaHeader);
   italiaCol.appendChild(italiaClick);
+<<<<<<< HEAD
   italiaCol.appendChild(italiaHide);
   italiaCol.appendChild(italiaEx);
+=======
+>>>>>>> a4e5791c8586ee6145f60b5f5446e5dd1da9b9d5
   italiaCol.appendChild(italiaTitle);
   italiaCol.appendChild(italiaHead);
   italiaCol.appendChild(italiaBody);
@@ -151,8 +179,11 @@ function firstModal () {
   italia.appendChild(italiaContent);
   italia.appendChild(italiaHeader);
   italia.appendChild(italiaClick);
+<<<<<<< HEAD
   italia.appendChild(italiaHide);
   italia.appendChild(italiaEx);
+=======
+>>>>>>> a4e5791c8586ee6145f60b5f5446e5dd1da9b9d5
   italia.appendChild(italiaTitle);
   italia.appendChild(italiaHead);
   italia.appendChild(italiaBody);
@@ -169,12 +200,20 @@ function firstModal () {
 
   firstVote.appendChild(italiaImage);
 
+<<<<<<< HEAD
+=======
+  italiaCaption.appendChild(italiaOverlay);
+
+>>>>>>> a4e5791c8586ee6145f60b5f5446e5dd1da9b9d5
   italiaOuter.appendChild(italiaBones);
   italiaOuter.appendChild(italiaContent);
   italiaOuter.appendChild(italiaHeader);
   italiaOuter.appendChild(italiaClick);
+<<<<<<< HEAD
   italiaOuter.appendChild(italiaHide);
   italiaOuter.appendChild(italiaEx);
+=======
+>>>>>>> a4e5791c8586ee6145f60b5f5446e5dd1da9b9d5
   italiaOuter.appendChild(italiaTitle);
   italiaOuter.appendChild(italiaHead)
   italiaOuter.appendChild(italiaBody);
@@ -187,8 +226,11 @@ function firstModal () {
   italiaBones.appendChild(italiaContent);
   italiaBones.appendChild(italiaHeader);
   italiaBones.appendChild(italiaClick);
+<<<<<<< HEAD
   italiaBones.appendChild(italiaHide);
   italiaBones.appendChild(italiaEx);
+=======
+>>>>>>> a4e5791c8586ee6145f60b5f5446e5dd1da9b9d5
   italiaBones.appendChild(italiaTitle);
   italiaBones.appendChild(italiaHead);
   italiaBones.appendChild(italiaBody);
@@ -200,8 +242,11 @@ function firstModal () {
 
   italiaContent.appendChild(italiaHeader);
   italiaContent.appendChild(italiaClick);
+<<<<<<< HEAD
   italiaContent.appendChild(italiaHide);
   italiaContent.appendChild(italiaEx);
+=======
+>>>>>>> a4e5791c8586ee6145f60b5f5446e5dd1da9b9d5
   italiaContent.appendChild(italiaTitle);
   italiaContent.appendChild(italiaHead);
   italiaContent.appendChild(italiaBody);
@@ -212,6 +257,7 @@ function firstModal () {
   italiaContent.appendChild(italiaDone);
 
   italiaHeader.appendChild(italiaClick);
+<<<<<<< HEAD
   italiaHeader.appendChild(italiaHide);
   italiaHeader.appendChild(italiaEx);
   italiaHeader.appendChild(italiaTitle);
@@ -222,6 +268,11 @@ function firstModal () {
 
   italiaHide.appendChild(italiaEx);
 
+=======
+  italiaHeader.appendChild(italiaTitle);
+  italiaHeader.appendChild(italiaHead);
+
+>>>>>>> a4e5791c8586ee6145f60b5f5446e5dd1da9b9d5
   italiaTitle.appendChild(italiaHead);
 
   italiaBody.appendChild(italiaBodyText);
@@ -231,9 +282,26 @@ function firstModal () {
   italiaFooter.appendChild(italiaDone);
 
   italiaClose.appendChild(italiaDone);
+<<<<<<< HEAD
 };
 
 firstModal();
+=======
+
+
+};
+
+italiaModal();
+
+
+
+
+
+
+
+
+
+>>>>>>> a4e5791c8586ee6145f60b5f5446e5dd1da9b9d5
 
 
 
