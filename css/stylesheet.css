@@ -336,13 +336,6 @@ body {
   top: 0;
   left: 0;
   background-size: 100% auto;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
-=======
->>>>>>> 2c82ef9... Re-added original html and css files
-=======
->>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
 }
 
 .vote1 .italiastyle {
@@ -387,13 +380,6 @@ body {
   opacity: 0;
   transition: opacity 0.35s, transform 0.35s;
   transform: translate3d(100%,0,0);
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
-=======
->>>>>>> 2c82ef9... Re-added original html and css files
-=======
->>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
 }
 
 .vote1:hover p {
@@ -406,13 +392,6 @@ body {
   font-size: 30px;
   font-family: 'Helvetica';
   padding-top: 100px;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
-=======
->>>>>>> 2c82ef9... Re-added original html and css files
-=======
->>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
 }
 
 /*Nissan GTR car vote section*/
@@ -421,13 +400,6 @@ body {
 }
 
 .squareTwo {
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
-=======
->>>>>>> 2c82ef9... Re-added original html and css files
-=======
->>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
   width: 100%;
   height: 100%;
   position: relative;
@@ -465,13 +437,6 @@ body {
 .vote2:hover img {
   opacity: 0.4;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
-=======
->>>>>>> 2c82ef9... Re-added original html and css files
-=======
->>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
 
 .vote2 h2 {
   color: #fff;
@@ -499,13 +464,6 @@ body {
 .vote2:hover p {
   opacity: 1;
   transform: translate3d(0,0,0);
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
-=======
->>>>>>> 2c82ef9... Re-added original html and css files
-=======
->>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
 }
 
 .votegtr {
@@ -517,13 +475,6 @@ body {
 /*Vote modal styling*/
 .modal {
   text-align: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
-=======
->>>>>>> 2c82ef9... Re-added original html and css files
-=======
->>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
 }
 
 .modal:before {
@@ -549,13 +500,6 @@ body {
 
 .modal-footer {
   text-align: center;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
-=======
->>>>>>> 2c82ef9... Re-added original html and css files
-=======
->>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
 }
 
 .btn-default {
@@ -589,13 +533,6 @@ body {
 
 .topracers {
   margin-top: 20px;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
-=======
->>>>>>> 2c82ef9... Re-added original html and css files
-=======
->>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
 }
 
 .scoreboard {
@@ -623,13 +560,6 @@ body {
   overflow: hidden;
   bottom: 44px;
   left: 0;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
-=======
->>>>>>> 2c82ef9... Re-added original html and css files
-=======
->>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
 }
 
 .statsOne img {
@@ -643,13 +573,6 @@ body {
 
 .statsOne:hover img {
   opacity: 0.6;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
-=======
->>>>>>> 2c82ef9... Re-added original html and css files
-=======
->>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
 }
 
 .statsOne h3 {
@@ -675,13 +598,6 @@ body {
   padding-top: 10px;
   transition: opacity 0.35s, transform 0.35s;
   transform: translate3d(100%,0,0);
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
-=======
->>>>>>> 2c82ef9... Re-added original html and css files
-=======
->>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
 }
 
 .statsOne:hover p {
@@ -706,13 +622,6 @@ body {
   left: 0;
   background-size: 100% auto;
   border: 9px solid black;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
-=======
->>>>>>> 2c82ef9... Re-added original html and css files
-=======
->>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
 }
 
 .statsTwo .m4Style {
@@ -731,13 +640,6 @@ body {
   width: 100%;
   opacity: 0.8;
   transition: opacity 0.35s, transform 0.35s;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
-=======
->>>>>>> 2c82ef9... Re-added original html and css files
-=======
->>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
 }
 
 .statsTwo:hover img {
@@ -801,13 +703,6 @@ body {
   bottom: 44px;
   left: 0;
 }
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
-=======
->>>>>>> 2c82ef9... Re-added original html and css files
-=======
->>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
 
 .statsThree img {
   display: block;
@@ -860,13 +755,6 @@ body {
 /*Social media section*/
 .socialmedia {
   margin-top:40px;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
-=======
->>>>>>> 2c82ef9... Re-added original html and css files
-=======
->>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
 }
 
 .followus {
@@ -929,23 +817,4 @@ body {
   font-family: 'Open Sans';
   font-size: 15px;
   color: white;
-<<<<<<< HEAD
-<<<<<<< HEAD
->>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
-=======
->>>>>>> 2c82ef9... Re-added original html and css files
-=======
->>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
 }
-
-
-
-
-
-
-
-
-
-
-
-
