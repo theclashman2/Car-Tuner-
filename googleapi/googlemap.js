@@ -1,7 +1,12 @@
+<<<<<<< HEAD
+=======
+/*Initiate map & load directions service with positioning*/
+>>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
 function initMap() {
   var directionsService = new google.maps.DirectionsService;
   var directionsDisplay = new google.maps.DirectionsRenderer;
   var map = new google.maps.Map(document.getElementById('map'), {
+<<<<<<< HEAD
 <<<<<<< HEAD:googleapi/directions.js
     zoom: 7,
     center: {lat: 41.85, lng: -87.65}
@@ -19,15 +24,27 @@ function initMap() {
 
 <<<<<<< HEAD:googleapi/directions.js
 =======
+=======
+    zoom: 12,
+    center: {lat: 33.6694444, lng: -117.8222222}
+
+  });
+
+  directionsDisplay.setMap(map);
+
+>>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
   /*Traffic Layer*/
   var trafficLayer = new google.maps.TrafficLayer();
   trafficLayer.setMap(map);
 
+<<<<<<< HEAD
 <<<<<<< HEAD:googleapi/googlemap.js
 >>>>>>> 8254c01... Added text overlay for build vote section #2:googleapi/googlemap.js
 =======
 >>>>>>> 888ca5f... #2 Added text overlay for build vote section:googleapi/googlemap.js
 >>>>>>> accf25b4023661d99e5be130b8e8544a0d415fff:googleapi/googlemap.js
+=======
+>>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
   var onChangeHandler = function() {
     calculateAndDisplayRoute(directionsService, directionsDisplay);
   };
@@ -48,3 +65,7 @@ function calculateAndDisplayRoute(directionsService, directionsDisplay) {
     }
   });
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> fde4de545d317bce7323acdeb2ad9bc8f9885339
