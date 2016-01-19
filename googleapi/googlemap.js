@@ -9,7 +9,11 @@ function initMap() {
     zoom: 12,
     center: {lat: 33.6694444, lng: -117.8222222}
 
+<<<<<<< HEAD:googleapi/googlemap.js
 >>>>>>> 8254c01... Added text overlay for build vote section #2:googleapi/googlemap.js
+=======
+>>>>>>> 888ca5f... #2 Added text overlay for build vote section:googleapi/googlemap.js
+>>>>>>> accf25b4023661d99e5be130b8e8544a0d415fff:googleapi/googlemap.js
   });
   directionsDisplay.setMap(map);
 
@@ -19,7 +23,11 @@ function initMap() {
   var trafficLayer = new google.maps.TrafficLayer();
   trafficLayer.setMap(map);
 
+<<<<<<< HEAD:googleapi/googlemap.js
 >>>>>>> 8254c01... Added text overlay for build vote section #2:googleapi/googlemap.js
+=======
+>>>>>>> 888ca5f... #2 Added text overlay for build vote section:googleapi/googlemap.js
+>>>>>>> accf25b4023661d99e5be130b8e8544a0d415fff:googleapi/googlemap.js
   var onChangeHandler = function() {
     calculateAndDisplayRoute(directionsService, directionsDisplay);
   };
