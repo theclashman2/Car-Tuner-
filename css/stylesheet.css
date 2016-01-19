@@ -312,17 +312,6 @@ body {
   border: 6px solid black;
 }
 
-<<<<<<< HEAD
-/*Horizontal lines*/
-.horizontalOne {
-  margin-top:70px;
-  border:3px solid black;
-}
-
-.horizontalTwo {
-  margin-top:50px;
-  border:3px solid black;
-=======
 .votesection {
   margin-top: 35px;
 }
@@ -347,7 +336,10 @@ body {
   top: 0;
   left: 0;
   background-size: 100% auto;
+<<<<<<< HEAD
 >>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+=======
+>>>>>>> 2c82ef9... Re-added original html and css files
 }
 
 .vote1 .italiastyle {
@@ -371,26 +363,6 @@ body {
   opacity: 0.4;
 }
 
-<<<<<<< HEAD
-/*Start of vote build section*/
-.voteday {
-  color:white;
-  font-size:24px;
-  text-align:center;
-  padding-top:10px;
-  font-family:'Helvetica';
-}
-
-
-/*Ferrari 458 car vote section*/
-.italia458 {
-  border:6px solid black;
-}
-
-
-.votesection {
-  margin-top:35px;
-=======
 .vote1 h2 {
   color: #fff;
   text-align: center;
@@ -412,7 +384,10 @@ body {
   opacity: 0;
   transition: opacity 0.35s, transform 0.35s;
   transform: translate3d(100%,0,0);
+<<<<<<< HEAD
 >>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+=======
+>>>>>>> 2c82ef9... Re-added original html and css files
 }
 
 .vote1:hover p {
@@ -421,15 +396,14 @@ body {
   color: green;
 }
 
-<<<<<<< HEAD
-.votesquares {
-  margin-top:1px;
-=======
 .voteitalia {
   font-size: 30px;
   font-family: 'Helvetica';
   padding-top: 100px;
+<<<<<<< HEAD
 >>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+=======
+>>>>>>> 2c82ef9... Re-added original html and css files
 }
 
 /*Nissan GTR car vote section*/
@@ -437,39 +411,16 @@ body {
   border: 6px solid black;
 }
 
-<<<<<<< HEAD
-.squareOne {
-=======
 .squareTwo {
->>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
-  width: 100%;
-  height: 100%;
-  position: relative;
-}
-
 <<<<<<< HEAD
-
-.vote1 {
-  width: 100%;
-  height: 78%;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  background: black;
-  top:0;
-  left:0;
-  background-size:100% auto;
-}
-
-
-.vote1 .italiastyle {
+>>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+=======
+>>>>>>> 2c82ef9... Re-added original html and css files
   width: 100%;
   height: 100%;
-  position: absolute;
-  overflow: hidden;
-  bottom:20px;
-  left: 0;
-=======
+  position: relative;
+}
+
 .vote2 {
   width: 100%;
   height: 78%;
@@ -502,7 +453,10 @@ body {
 .vote2:hover img {
   opacity: 0.4;
 }
+<<<<<<< HEAD
 >>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+=======
+>>>>>>> 2c82ef9... Re-added original html and css files
 
 .vote2 h2 {
   color: #fff;
@@ -527,18 +481,13 @@ body {
   transform: translate3d(100%,0,0);
 }
 
-<<<<<<< HEAD
-.vote1 img {
-  display: block;
-  position: relative;
-  max-width: none;
-  width: 100%;
-  transition: opacity 0.35s, transform 0.35s;
-=======
 .vote2:hover p {
   opacity: 1;
   transform: translate3d(0,0,0);
+<<<<<<< HEAD
 >>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+=======
+>>>>>>> 2c82ef9... Re-added original html and css files
 }
 
 .votegtr {
@@ -547,14 +496,13 @@ body {
   padding-top: 100px;
 }
 
-<<<<<<< HEAD
-.vote1:hover img {
-  opacity: 0.4;
-=======
 /*Vote modal styling*/
 .modal {
   text-align: center;
+<<<<<<< HEAD
 >>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+=======
+>>>>>>> 2c82ef9... Re-added original html and css files
 }
 
 .modal:before {
@@ -565,42 +513,6 @@ body {
   margin-right: -4px;
 }
 
-<<<<<<< HEAD
-.vote1 h2 {
-  color: #fff;
-  text-align: center;
-  font-size: 17px;
-  overflow: hidden;
-  padding: 18px 50px 13px 50px;
-  background-color: rgba(15,15,15,0.85);
-  width:100%;
-  font-size:25px;
-  bottom:0px;
-  font-weight:300;
-  font-family:'Helvetica';
-  border-left:none;
-  border-right:none;
-}
-
-
-.vote1 p {
-  color: #FFF;
-  opacity: 0;
-  transition: opacity 0.35s, transform 0.35s;
-  transform: translate3d(100%,0,0);
-}
-
-
-.vote1:hover p {
-  opacity: 1;
-  transform: translate3d(0,0,0);
-}
-
-.voteitalia {
-  padding-top:70px;
-  font-size:30px;
-  font-family:'Helvetica';
-=======
 .modal-dialog {
   border: 5px solid black;
   display: inline-block;
@@ -616,7 +528,10 @@ body {
 
 .modal-footer {
   text-align: center;
+<<<<<<< HEAD
 >>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+=======
+>>>>>>> 2c82ef9... Re-added original html and css files
 }
 
 .btn-default {
@@ -648,39 +563,18 @@ body {
   padding-bottom:20px;
 }
 
-<<<<<<< HEAD
-/*Nissan GTR car vote section*/
-.r35gtr {
-  border:6px solid black;
-}
-
-
-.squareTwo {
-  width: 100%;
-  height: 100%;
-  position: relative;
-=======
 .topracers {
   margin-top: 20px;
+<<<<<<< HEAD
 >>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+=======
+>>>>>>> 2c82ef9... Re-added original html and css files
 }
 
 .scoreboard {
   margin-top: 20px;
 }
 
-<<<<<<< HEAD
-.vote2 {
-  width: 100%;
-  height: 78%;
-  overflow: hidden;
-  position: relative;
-  text-align: center;
-  background: black;
-  top:0;
-  left:0;
-  background-size:100% auto;
-=======
 /*G37 top racer section*/
 .statsOne {
   width: 100%;
@@ -702,7 +596,10 @@ body {
   overflow: hidden;
   bottom: 44px;
   left: 0;
+<<<<<<< HEAD
 >>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+=======
+>>>>>>> 2c82ef9... Re-added original html and css files
 }
 
 .statsOne img {
@@ -714,18 +611,12 @@ body {
   transition: opacity 0.35s, transform 0.35s;
 }
 
-<<<<<<< HEAD
-.vote2 .gtrstyle {
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  overflow: hidden;
-  bottom:20px;
-  left: 0;
-=======
 .statsOne:hover img {
   opacity: 0.6;
+<<<<<<< HEAD
 >>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+=======
+>>>>>>> 2c82ef9... Re-added original html and css files
 }
 
 .statsOne h3 {
@@ -744,14 +635,6 @@ body {
   border-right: none;
 }
 
-<<<<<<< HEAD
-.vote2 img {
-  display: block;
-  position: relative;
-  max-width: none;
-  width: 100%;
-  transition: opacity 0.35s, transform 0.35s;
-=======
 .statsOne p {
   color: #FFF;
   opacity: 0;
@@ -759,7 +642,10 @@ body {
   padding-top: 10px;
   transition: opacity 0.35s, transform 0.35s;
   transform: translate3d(100%,0,0);
+<<<<<<< HEAD
 >>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+=======
+>>>>>>> 2c82ef9... Re-added original html and css files
 }
 
 .statsOne:hover p {
@@ -767,27 +653,6 @@ body {
   transform: translate3d(0,0,0);
 }
 
-<<<<<<< HEAD
-.vote2:hover img {
-  opacity: 0.4;
-}
-
-
-.vote2 h2 {
-  color: #fff;
-  text-align: center;
-  font-size: 17px;
-  overflow: hidden;
-  padding: 18px 50px 13px 50px;
-  background-color: rgba(15,15,15,0.50);
-  width:100%;
-  font-size:25px;
-  bottom:0px;
-  font-weight:300;
-  font-family:'Helvetica';
-  border-left:none;
-  border-right:none;
-=======
 .viewOne {
   font-size: 20px;
   font-family: 'Helvetica';
@@ -805,7 +670,10 @@ body {
   left: 0;
   background-size: 100% auto;
   border: 9px solid black;
+<<<<<<< HEAD
 >>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+=======
+>>>>>>> 2c82ef9... Re-added original html and css files
 }
 
 .statsTwo .m4Style {
@@ -817,19 +685,6 @@ body {
   left: 0;
 }
 
-<<<<<<< HEAD
-.vote2 p {
-  color: #FFF;
-  opacity: 0;
-  transition: opacity 0.35s, transform 0.35s;
-  transform: translate3d(100%,0,0);
-}
-
-
-.vote2:hover p {
-  opacity: 1;
-  transform: translate3d(0,0,0);
-=======
 .statsTwo img {
   display: block;
   position: relative;
@@ -837,61 +692,16 @@ body {
   width: 100%;
   opacity: 0.8;
   transition: opacity 0.35s, transform 0.35s;
+<<<<<<< HEAD
 >>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+=======
+>>>>>>> 2c82ef9... Re-added original html and css files
 }
 
 .statsTwo:hover img {
   opacity: 0.5;
 }
 
-<<<<<<< HEAD
-.votegtr {
-  padding-top:70px;
-  font-family:'Helvetica';
-  font-size:30px;
-}
-
-
-
-
-
-/*Vote modal styling*/
-.modal {
-  text-align:center;
-}
-
-.modal:before {
-  content:'';
-  display:inline-block;
-  height:100%;
-  vertical-align:middle;
-  margin-right:-4px;
-}
-
-.modal-dialog {
-  display:inline-block;
-  text-align:middle;
-  vertical-align:middle;
-  border:5px solid black;
-}
-
-.modal-body {
-  font-size:20px;
-  font-family:'Helvetica';
-  color:black;
-}
-
-.modal-title {
-  color:black;
-  font-family:'Helvetica';
-}
-
-.modal-footer {
-  text-align:center;
-}
-
-
-=======
 .statsTwo h3 {
   color: #fff;
   text-align: center;
@@ -949,7 +759,10 @@ body {
   bottom: 44px;
   left: 0;
 }
+<<<<<<< HEAD
 >>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+=======
+>>>>>>> 2c82ef9... Re-added original html and css files
 
 .statsThree img {
   display: block;
@@ -999,97 +812,19 @@ body {
   font-family: 'Helvetica';
 }
 
-<<<<<<< HEAD
-/*Race map header styling*/
-.raceHead {
-  margin-top:28px;
-  color:white;
-  text-align:center;
-  font-size:27px;
-  font-family:'Helvetica';
-=======
 /*Social media section*/
 .socialmedia {
   margin-top:40px;
+<<<<<<< HEAD
 >>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+=======
+>>>>>>> 2c82ef9... Re-added original html and css files
 }
 
 .followus {
   margin-top: 20px;
 }
 
-<<<<<<< HEAD
-#map {
-  margin-top:30px;
-  border:1px solid black;
-}
-
-
-#floating-panel {
-  margin-top:20px;
-  margin-right:20px;
-}
-
-
-
-
-
-
-/*Top racer scoreboard section styling*/
-.topracers {
-  margin-top:40px;
-  text-align:center;
-  color:white;
-  font-family:'Helvetica';
-  font-size:30px;
-}
-
-.scoreboard {
-  margin-top:20px;
-}
-
-
-.lbg37 {
-  border:5px solid black;
-}
-
-
-
-
-
-
-
-
-.box {  
-  background-image:url('../images/libertywalkg37.jpg');
-  overflow:hidden;
-  position:relative;
-}
-
-
-
-.overlay {  
-  background:rgba(0,0,0,.75);
-  padding:50px 0px;
-  opacity:0;
-}
-
-
-.box:hover .overlay {
-  opacity:1;
-}
-
-
-.plus { 
-  font-family:'Helvetica';
-  font-weight:900;
-  color:rgba(255,255,255,.85);
-  font-size:17px;
-  text-align:center;
-  color:#fff;
-  padding:10px 5px 10px 5px;
-  width:100%;
-=======
 .socialicons {
   margin-top: 50px;
 }
@@ -1146,93 +881,11 @@ body {
   font-family: 'Open Sans';
   font-size: 15px;
   color: white;
+<<<<<<< HEAD
 >>>>>>> cde9aa2c6fd6cc1a6d0343eefd886e805933c451
+=======
+>>>>>>> 2c82ef9... Re-added original html and css files
 }
-
-
-
-
-
-
-
-
-
-
-   /*Social media section*/
-  .followus {
-    color:white;
-    font-size:28px;
-    text-align:center;
-    margin-top:80px;
-    font-family:'Open Sans';
-  }
-
-  .socialicons {
-    margin-top:50px;
-
-  }
-
-
-
-  /*Facebook icon section*/
-  .fbicon {
-    color:#ED1C26;
-    font-size:80px;
-
-  }
-
-  .fbheader {
-    color:white;
-    font-family:'Open Sans';
-    font-size:25px;
-  }
-
-  .fbtext {
-    color:white;
-    font-size:15px;
-    font-family:'Open Sans';
-  }
-
-
-
-
-  /*Youtube icon section*/
-  .tubeicon {
-    color:#ED1C26;
-    font-size:80px;
-  }
-
-  .tubeheader {
-    font-family:'Open Sans';
-    font-size:25px;
-    color:white;
-  }
-
-  .tubetext {
-    font-family:'Open Sans';
-    font-size:15px;
-    color:white;
-  }
-
-
-
-  /*Instagram icon section*/
-  .instaicon {
-    color:#ED1C26;
-    font-size:80px;
-  }
-
-  .instaheader {
-    font-family:'Open Sans';
-    font-size:25px;
-    color:white;
-  }
-
-  .instatext {
-    font-family:'Open Sans';
-    font-size:15px;
-    color:white;
-  }
 
 
 
