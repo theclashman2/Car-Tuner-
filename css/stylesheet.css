@@ -639,6 +639,10 @@ body {
   max-width: none;
   width: 100%;
   opacity: 0.8;
+<<<<<<< HEAD
+=======
+  transition: opacity 0.35s, transform 0.35s;
+>>>>>>> 34c0877a62138c35c1df9ccad6973dc6eb65a8ed
 }
 
 .statsTwo:hover img {
